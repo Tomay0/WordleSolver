@@ -1,0 +1,4 @@
+guess: ahigh
+results:
+  01000: hello
+  00000: cello

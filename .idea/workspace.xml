@@ -5,10 +5,8 @@
       <change afterPath="$PROJECT_DIR$/.idea/runConfigurations.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/WordleSolver.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/python/.idea/WordleSolver.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/tomay0/wordle/GuessLogic.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tomay0/wordle/GuessNode.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/tomay0/wordle/WordList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/tomay0/wordle/WordleSolver.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/tomay0/wordle/test/GuessLogicTest.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/tomay0/wordle/test/WordListTest.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/tomay0/wordle/util/ArrayMap.java" afterDir="false" />
@@ -21,6 +19,7 @@
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.venv/bin/Activate.ps1" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.venv/bin/activate" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.venv/bin/activate.csh" beforeDir="false" />
@@ -608,8 +607,9 @@
       <change beforePath="$PROJECT_DIR$/.venv/lib/python3.9/site-packages/setuptools/wheel.py" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.venv/lib/python3.9/site-packages/setuptools/windows_support.py" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.venv/pyvenv.cfg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/every_single_wordle_solution.txt" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tomay0/wordle/GuessLogic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tomay0/wordle/GuessLogic.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tomay0/wordle/WordleSolver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tomay0/wordle/WordleSolver.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -660,11 +660,27 @@
     <key name="CopyFile.RECENT_KEYS">
       <recent name="H:\Thomas\Dev\WordleSolver" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="H:\Thomas\Dev\WordleSolver" />
+    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="tomay0.wordle.util" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.GuessLogicTest">
+  <component name="RunManager" selected="Application.WordleSolver">
+    <configuration name="WordleSolver" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="tomay0.wordle.WordleSolver" />
+      <module name="WordleSolver" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tomay0.wordle.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="GuessLogicTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="WordleSolver" />
       <extension name="coverage">
@@ -698,6 +714,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.WordleSolver" />
         <item itemvalue="JUnit.GuessLogicTest" />
         <item itemvalue="JUnit.GuessLogicTest.testMecca" />
       </list>

@@ -78,6 +78,16 @@ public class GuessLogic {
     return sb.toString();
   }
 
+  public String fileSafeString() {
+    StringBuilder sb = new StringBuilder();
+
+    for (int i : displayArray) {
+      sb.append(i);
+    }
+
+    return sb.toString();
+  }
+
   private static int countChars(String word, Character c) {
     int count = 0;
     for (int i = 0; i < 5; i++) {

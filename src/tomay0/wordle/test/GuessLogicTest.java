@@ -171,4 +171,18 @@ public class GuessLogicTest {
 
     assertEquals(expected, logic.getPossibilities(wl));
   }
+
+  @Test
+  public void testMummyPossibilities() {
+    GuessLogic logic = GuessLogic.generate("mummy", "fizzy");
+
+    WordList wl = new WordList();
+    wl.add("mummy");
+    wl.add("fizzy");
+
+    WordList expected = new WordList();
+    expected.add("fizzy");
+
+    assertEquals(expected, logic.getPossibilities(wl));
+  }
 }

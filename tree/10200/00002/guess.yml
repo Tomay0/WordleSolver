@@ -1,4 +1,6 @@
-guess: ahigh
+guess: coact
 results:
-  10000: brass
-  10010: grass
+  00020: brick
+  00021: trick
+  20020: crick
+  00000: quirk

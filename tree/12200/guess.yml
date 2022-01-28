@@ -1,4 +1,6 @@
-guess: ahigh
+guess: whyda
 results:
-  10000: board
-  11000: hoard
+  00101: fairy
+  01101: hairy
+  00111: dairy
+  00001: cairn

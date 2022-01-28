@@ -1,4 +1,5 @@
-guess: omens
+guess: coarb
 results:
-  01000: wimpy
-  00000: hippy
+  21000: clock
+  11001: block
+  11000: flock

@@ -1,7 +1,9 @@
-guess: mawks
+guess: empty
 results:
-  20200: mower
-  20000: mover
-  10000: homer
-  00201: sower
-  00100: wooer
+  20002: early
+  20000: eager
+  20010: eater
+  11010: tamer
+  20020: earth
+  10101: payer
+  10210: taper

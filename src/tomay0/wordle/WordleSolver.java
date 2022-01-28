@@ -32,5 +32,7 @@ public class WordleSolver {
     GuessNode rootNode = new GuessNode(dir, allWords, possibleSolutions);
 
     rootNode.generateTree();
+
+    TreeWalker.main(args);
   }
 }

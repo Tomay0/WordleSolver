@@ -1,9 +1,7 @@
-guess: fined
+guess: bogus
 results:
-  01110: naive
-  00020: payee
-  01010: waive
-  00010: cache
-  00211: dance
-  10010: gaffe
-  00011: badge
+  01000: diode
+  00020: pique
+  21000: biome
+  00000: pixie
+  00100: midge

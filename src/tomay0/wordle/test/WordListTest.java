@@ -26,6 +26,6 @@ public class WordListTest {
       assertEquals(5, w.length());
     }
 
-    assertEquals(10657, wl.size());
+    assertEquals(12972, wl.size());
   }
 }

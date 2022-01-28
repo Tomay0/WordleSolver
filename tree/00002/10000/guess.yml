@@ -1,6 +1,6 @@
-guess: fecht
+guess: fetch
 results:
-  02100: pence
-  02110: hence
   02000: penne
-  22100: fence
+  22020: fence
+  02021: hence
+  02020: pence

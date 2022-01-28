@@ -1,10 +1,7 @@
 package tomay0.wordle;
 
 import java.io.*;
-import java.util.ArrayList;
-import java.util.Collection;
-import java.util.HashMap;
-import java.util.Map;
+import java.util.*;
 import java.util.stream.Collectors;
 
 public class GuessNode {
@@ -24,9 +21,13 @@ public class GuessNode {
     return possibleSolutions.size() == 1;
   }
 
-  public Guess getBestGuess() {
+  public String getBestGuessString() {
+    return getBestGuess().guess;
+  }
+
+  private Guess getBestGuess() {
     if (bestGuess == null) {
-      bestGuess = wordList.parallelStream().map(this::getGuess).min(Guess::compareTo).get();
+      bestGuess = wordList.parallelStream().map(this::getGuess).max(Guess::compareTo).get();
     }
     return bestGuess;
   }
@@ -43,22 +44,21 @@ public class GuessNode {
   }
 
   private Guess getGuess(String guess) {
-    int totalSolutions = 0;
-
-    Map<GuessLogic, Integer> cache = new HashMap<>();
+    Map<GuessLogic, Integer> possibilities = new HashMap<>();
 
     for (String solution : possibleSolutions) {
       GuessLogic logic = GuessLogic.generate(guess, solution);
 
-      if (!cache.containsKey(logic)) {
+      if (!possibilities.containsKey(logic)) {
         WordList solutions = logic.getPossibilities(possibleSolutions);
-        cache.put(logic, solutions.size());
+        possibilities.put(logic, solutions.size());
       }
-
-      totalSolutions += cache.get(logic);
     }
 
-    return new Guess(guess, totalSolutions, cache.keySet());
+    int metric = possibilities.size() - Collections.max(possibilities.values());
+    boolean isInPossibilities = possibleSolutions.contains(guess);
+
+    return new Guess(guess, metric, isInPossibilities, possibilities.keySet());
   }
 
 
@@ -83,6 +83,7 @@ public class GuessNode {
 
     writeToFile(guess, immediateGuesses);
   }
+
   private void writeToFile(String guess, Map<String, String> immediateGuesses) throws IOException {
     PrintWriter writer = new PrintWriter(new FileWriter(new File(dir, "guess.yml")));
 
@@ -96,11 +97,15 @@ public class GuessNode {
     writer.close();
   }
 
-  private record Guess(String guess, int totalSolutions,
+  private record Guess(String guess, int metric, boolean isInPossibilities,
                        Collection<GuessLogic> possibilities) implements Comparable<Guess> {
     @Override
     public int compareTo(Guess o) {
-      return Integer.compare(totalSolutions, o.totalSolutions);
+      int compare = Integer.compare(metric, o.metric);
+
+      if (compare != 0) return compare;
+
+      return Boolean.compare(isInPossibilities, o.isInPossibilities);
     }
   }
 }

@@ -1,5 +1,5 @@
-guess: flamy
+guess: glade
 results:
-  01000: light
-  20000: fight
-  00010: might
+  20000: gusty
+  00010: dusty
+  00000: musty

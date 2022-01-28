@@ -1,9 +1,8 @@
-guess: scrip
+guess: potch
 results:
-  01110: trice
-  00200: three
-  00110: tribe
-  10200: terse
-  00111: tripe
-  00100: there
-  01100: truce
+  00010: scree
+  01010: score
+  10000: spree
+  11000: spore
+  01001: shore
+  01100: store

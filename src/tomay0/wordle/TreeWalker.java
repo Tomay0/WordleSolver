@@ -90,5 +90,11 @@ public record TreeWalker(File dir, WordList possibleSolutions) {
 
     System.out.println("Maximum number of guesses: " + maxGuesses);
     System.out.println("Average number of guesses: " + averageGuesses);
+    for (int i = 0; i < maxGuesses; i++) {
+      final int v = i + 1;
+      float percent = 100.0f * (map.values().stream().filter(x -> x.size() == v).count() / (float) possibleSolutions.size());
+
+      System.out.println(v + ": " + percent + "%");
+    }
   }
 }

@@ -1,6 +1,6 @@
 guess: knosp
 results:
   00211: spoof
-  10211: spook
-  02212: snoop
   01211: spoon
+  02212: snoop
+  10211: spook

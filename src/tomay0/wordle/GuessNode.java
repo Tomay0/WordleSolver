@@ -97,11 +97,11 @@ public class GuessNode {
     writer.close();
   }
 
-  private record Guess(String guess, int metric, boolean isInPossibilities,
+  private record Guess(String guess, float metric, boolean isInPossibilities,
                        Collection<GuessLogic> possibilities) implements Comparable<Guess> {
     @Override
     public int compareTo(Guess o) {
-      int compare = Integer.compare(metric, o.metric);
+      int compare = Float.compare(metric, o.metric);
 
       if (compare != 0) return compare;
 

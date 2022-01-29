@@ -2,628 +2,163 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="be5e3547-27c6-4cea-8e89-5271f1dd505a" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/tomay0/wordle/TreeWalker.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/tomay0/wordle/test/GuessNodeTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/WordleSolver/tomay0/wordle/GuessNode$Guess.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/WordleSolver/tomay0/wordle/GuessNode$Guess.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/WordleSolver/tomay0/wordle/GuessNode.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/WordleSolver/tomay0/wordle/GuessNode.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/WordleSolver/tomay0/wordle/test/GuessLogicTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/WordleSolver/tomay0/wordle/test/GuessLogicTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/WordleSolver/tomay0/wordle/test/WordListTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/WordleSolver/tomay0/wordle/test/WordListTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/WordleSolver/tomay0/wordle/TreeWalker.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/WordleSolver/tomay0/wordle/TreeWalker.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/tomay0/wordle/GuessNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tomay0/wordle/GuessNode.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tomay0/wordle/WordleSolver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tomay0/wordle/WordleSolver.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tomay0/wordle/test/GuessLogicTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tomay0/wordle/test/GuessLogicTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tomay0/wordle/test/WordListTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tomay0/wordle/test/WordListTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tree/00000/00000/00100/guess.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tree/00000/00000/00110/guess.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tree/00000/00000/00120/guess.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tomay0/wordle/TreeWalker.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tomay0/wordle/TreeWalker.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tree/00000/00000/guess.yml" beforeDir="false" afterPath="$PROJECT_DIR$/tree/00000/00000/guess.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tree/00000/00001/12000/guess.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tree/00000/00001/12020/guess.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tree/00000/00001/21000/guess.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tree/00000/00001/guess.yml" beforeDir="false" afterPath="$PROJECT_DIR$/tree/00000/00001/guess.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tree/00000/00010/guess.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tree/00000/00011/guess.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tree/00000/00020/guess.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tree/00000/00100/00002/guess.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tree/00000/00100/00202/guess.yml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/tree/00000/00100/guess.yml" beforeDir="false" afterPath="$PROJECT_DIR$/tree/00000/00100/guess.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tree/00000/00101/guess.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tree/00000/00110/guess.yml" beforeDir="false" afterPath="$PROJECT_DIR$/tree/00000/00110/guess.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tree/00000/00120/guess.yml" beforeDir="false" afterPath="$PROJECT_DIR$/tree/00000/00120/guess.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tree/00000/00200/guess.yml" beforeDir="false" afterPath="$PROJECT_DIR$/tree/00000/00200/guess.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tree/00000/00201/guess.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tree/00000/00211/guess.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tree/00000/01000/00020/guess.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tree/00000/01000/guess.yml" beforeDir="false" afterPath="$PROJECT_DIR$/tree/00000/01000/guess.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tree/00000/01001/guess.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tree/00000/01020/guess.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tree/00000/01100/00010/guess.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tree/00000/01100/00011/guess.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tree/00000/01100/00020/guess.yml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/tree/00000/01100/guess.yml" beforeDir="false" afterPath="$PROJECT_DIR$/tree/00000/01100/guess.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tree/00000/01101/guess.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tree/00000/01110/guess.yml" beforeDir="false" afterPath="$PROJECT_DIR$/tree/00000/01110/guess.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tree/00000/01200/guess.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tree/00000/01201/guess.yml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/tree/00000/02000/guess.yml" beforeDir="false" afterPath="$PROJECT_DIR$/tree/00000/02000/guess.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tree/00000/02001/20001/guess.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tree/00000/02001/guess.yml" beforeDir="false" afterPath="$PROJECT_DIR$/tree/00000/02001/guess.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tree/00000/02010/guess.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tree/00000/02011/guess.yml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/tree/00000/02200/guess.yml" beforeDir="false" afterPath="$PROJECT_DIR$/tree/00000/02200/guess.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tree/00000/02201/guess.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tree/00000/10000/guess.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tree/00000/10001/guess.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tree/00000/10100/guess.yml" beforeDir="false" afterPath="$PROJECT_DIR$/tree/00000/10100/guess.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tree/00000/10110/guess.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tree/00000/10200/guess.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tree/00000/11000/guess.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tree/00000/20000/guess.yml" beforeDir="false" afterPath="$PROJECT_DIR$/tree/00000/20000/guess.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tree/00000/20100/guess.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tree/00000/21200/guess.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tree/00000/22000/guess.yml" beforeDir="false" afterPath="$PROJECT_DIR$/tree/00000/22000/guess.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tree/00000/22200/guess.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tree/00000/12000/guess.yml" beforeDir="false" afterPath="$PROJECT_DIR$/tree/00000/12000/guess.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tree/00000/guess.yml" beforeDir="false" afterPath="$PROJECT_DIR$/tree/00000/guess.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tree/00001/00010/guess.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tree/00001/00011/guess.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tree/00001/00020/guess.yml" beforeDir="false" afterPath="$PROJECT_DIR$/tree/00001/00020/guess.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tree/00001/00021/guess.yml" beforeDir="false" afterPath="$PROJECT_DIR$/tree/00001/00021/guess.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tree/00001/00022/guess.yml" beforeDir="false" afterPath="$PROJECT_DIR$/tree/00001/00022/guess.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tree/00001/00110/guess.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tree/00001/00111/guess.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tree/00001/00120/01020/guess.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tree/00001/00120/22020/guess.yml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/tree/00001/00120/guess.yml" beforeDir="false" afterPath="$PROJECT_DIR$/tree/00001/00120/guess.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tree/00001/00210/guess.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tree/00001/01010/guess.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tree/00001/01011/guess.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tree/00001/01012/guess.yml" beforeDir="false" afterPath="$PROJECT_DIR$/tree/00001/01012/guess.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tree/00001/01120/guess.yml" beforeDir="false" afterPath="$PROJECT_DIR$/tree/00001/01120/guess.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tree/00001/02020/guess.yml" beforeDir="false" afterPath="$PROJECT_DIR$/tree/00001/02020/guess.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tree/00001/02022/guess.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tree/00001/02110/guess.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tree/00001/02120/guess.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tree/00001/02122/guess.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tree/00001/10010/guess.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tree/00001/10110/guess.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tree/00001/20010/guess.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tree/00001/20020/guess.yml" beforeDir="false" afterPath="$PROJECT_DIR$/tree/00001/20020/guess.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tree/00001/20022/guess.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tree/00001/20110/01000/guess.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tree/00001/20110/guess.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tree/00001/20120/guess.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tree/00001/21020/guess.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tree/00001/01000/guess.yml" beforeDir="false" afterPath="$PROJECT_DIR$/tree/00001/01000/guess.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tree/00001/01020/guess.yml" beforeDir="false" afterPath="$PROJECT_DIR$/tree/00001/01020/guess.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tree/00001/01022/guess.yml" beforeDir="false" afterPath="$PROJECT_DIR$/tree/00001/01022/guess.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tree/00001/01100/guess.yml" beforeDir="false" afterPath="$PROJECT_DIR$/tree/00001/01100/guess.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tree/00001/01102/guess.yml" beforeDir="false" afterPath="$PROJECT_DIR$/tree/00001/01102/guess.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tree/00001/02000/guess.yml" beforeDir="false" afterPath="$PROJECT_DIR$/tree/00001/02000/guess.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tree/00001/02001/guess.yml" beforeDir="false" afterPath="$PROJECT_DIR$/tree/00001/02001/guess.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tree/00001/02010/guess.yml" beforeDir="false" afterPath="$PROJECT_DIR$/tree/00001/02010/guess.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tree/00001/02011/guess.yml" beforeDir="false" afterPath="$PROJECT_DIR$/tree/00001/02011/guess.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tree/00001/02100/guess.yml" beforeDir="false" afterPath="$PROJECT_DIR$/tree/00001/02100/guess.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tree/00001/10020/guess.yml" beforeDir="false" afterPath="$PROJECT_DIR$/tree/00001/10020/guess.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tree/00001/11020/guess.yml" beforeDir="false" afterPath="$PROJECT_DIR$/tree/00001/11020/guess.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tree/00001/guess.yml" beforeDir="false" afterPath="$PROJECT_DIR$/tree/00001/guess.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tree/00002/00000/guess.yml" beforeDir="false" afterPath="$PROJECT_DIR$/tree/00002/00000/guess.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tree/00002/00010/guess.yml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/tree/00002/00020/guess.yml" beforeDir="false" afterPath="$PROJECT_DIR$/tree/00002/00020/guess.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tree/00002/00110/guess.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tree/00002/00200/guess.yml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/tree/00002/00210/guess.yml" beforeDir="false" afterPath="$PROJECT_DIR$/tree/00002/00210/guess.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tree/00002/01000/guess.yml" beforeDir="false" afterPath="$PROJECT_DIR$/tree/00002/01000/guess.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tree/00002/01001/guess.yml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/tree/00002/01010/guess.yml" beforeDir="false" afterPath="$PROJECT_DIR$/tree/00002/01010/guess.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tree/00002/01100/guess.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tree/00002/02000/guess.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tree/00002/02001/guess.yml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/tree/00002/10000/guess.yml" beforeDir="false" afterPath="$PROJECT_DIR$/tree/00002/10000/guess.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tree/00002/10001/guess.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tree/00002/10010/guess.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tree/00002/11000/guess.yml" beforeDir="false" afterPath="$PROJECT_DIR$/tree/00002/11000/guess.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tree/00002/11001/guess.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tree/00002/12000/guess.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tree/00002/12001/guess.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tree/00002/22000/guess.yml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/tree/00002/guess.yml" beforeDir="false" afterPath="$PROJECT_DIR$/tree/00002/guess.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tree/00010/00001/guess.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tree/00010/00002/guess.yml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/tree/00010/00010/guess.yml" beforeDir="false" afterPath="$PROJECT_DIR$/tree/00010/00010/guess.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tree/00010/00100/guess.yml" beforeDir="false" afterPath="$PROJECT_DIR$/tree/00010/00100/guess.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tree/00010/00101/00000/guess.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tree/00010/00101/00002/guess.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tree/00010/00101/guess.yml" beforeDir="false" afterPath="$PROJECT_DIR$/tree/00010/00101/guess.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tree/00010/00102/guess.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tree/00010/00110/guess.yml" beforeDir="false" afterPath="$PROJECT_DIR$/tree/00010/00110/guess.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tree/00010/00120/guess.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tree/00010/00200/guess.yml" beforeDir="false" afterPath="$PROJECT_DIR$/tree/00010/00200/guess.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tree/00010/00210/guess.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tree/00010/01010/guess.yml" beforeDir="false" afterPath="$PROJECT_DIR$/tree/00010/01010/guess.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tree/00010/01200/guess.yml" beforeDir="false" afterPath="$PROJECT_DIR$/tree/00010/01200/guess.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tree/00010/01210/guess.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tree/00010/02100/guess.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tree/00010/10020/guess.yml" beforeDir="false" afterPath="$PROJECT_DIR$/tree/00010/10020/guess.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tree/00010/guess.yml" beforeDir="false" afterPath="$PROJECT_DIR$/tree/00010/guess.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tree/00011/00010/guess.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tree/00011/00011/guess.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tree/00011/00020/guess.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tree/00011/00110/guess.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tree/00011/00120/guess.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tree/00011/01010/guess.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tree/00011/01011/guess.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tree/00011/01012/guess.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tree/00011/01020/guess.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tree/00011/10010/guess.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tree/00011/10020/guess.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tree/00011/11010/guess.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tree/00011/20010/guess.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tree/00011/20020/guess.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tree/00011/20110/guess.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tree/00011/20120/guess.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tree/00011/10100/guess.yml" beforeDir="false" afterPath="$PROJECT_DIR$/tree/00011/10100/guess.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tree/00011/20220/guess.yml" beforeDir="false" afterPath="$PROJECT_DIR$/tree/00011/20220/guess.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tree/00011/22200/guess.yml" beforeDir="false" afterPath="$PROJECT_DIR$/tree/00011/22200/guess.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tree/00011/guess.yml" beforeDir="false" afterPath="$PROJECT_DIR$/tree/00011/guess.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tree/00012/20000/guess.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tree/00012/20100/guess.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tree/00012/22000/guess.yml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/tree/00012/guess.yml" beforeDir="false" afterPath="$PROJECT_DIR$/tree/00012/guess.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tree/00020/00001/guess.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tree/00020/02000/guess.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tree/00020/12000/guess.yml" beforeDir="false" afterPath="$PROJECT_DIR$/tree/00020/12000/guess.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tree/00020/guess.yml" beforeDir="false" afterPath="$PROJECT_DIR$/tree/00020/guess.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tree/00021/00100/guess.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tree/00021/00110/guess.yml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/tree/00021/guess.yml" beforeDir="false" afterPath="$PROJECT_DIR$/tree/00021/guess.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tree/00022/guess.yml" beforeDir="false" afterPath="$PROJECT_DIR$/tree/00022/guess.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tree/00100/00000/guess.yml" beforeDir="false" afterPath="$PROJECT_DIR$/tree/00100/00000/guess.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tree/00100/00001/guess.yml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/tree/00100/00002/guess.yml" beforeDir="false" afterPath="$PROJECT_DIR$/tree/00100/00002/guess.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tree/00100/00011/guess.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tree/00100/00020/guess.yml" beforeDir="false" afterPath="$PROJECT_DIR$/tree/00100/00020/guess.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tree/00100/00021/guess.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tree/00100/00022/guess.yml" beforeDir="false" afterPath="$PROJECT_DIR$/tree/00100/00022/guess.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tree/00100/00100/guess.yml" beforeDir="false" afterPath="$PROJECT_DIR$/tree/00100/00100/guess.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tree/00100/00110/guess.yml" beforeDir="false" afterPath="$PROJECT_DIR$/tree/00100/00110/guess.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tree/00100/00220/guess.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tree/00100/01000/02002/guess.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tree/00100/01000/02202/guess.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tree/00100/00010/00012/guess.yml" beforeDir="false" afterPath="$PROJECT_DIR$/tree/00100/00010/00012/guess.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tree/00100/00202/guess.yml" beforeDir="false" afterPath="$PROJECT_DIR$/tree/00100/00202/guess.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tree/00100/01000/guess.yml" beforeDir="false" afterPath="$PROJECT_DIR$/tree/00100/01000/guess.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tree/00100/01001/00010/guess.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tree/00100/01001/guess.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tree/00100/01100/guess.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tree/00100/01101/guess.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tree/00100/01200/guess.yml" beforeDir="false" afterPath="$PROJECT_DIR$/tree/00100/01200/guess.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tree/00100/10000/guess.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tree/00100/10001/guess.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tree/00100/10010/guess.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tree/00100/10020/guess.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tree/00100/10100/guess.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tree/00100/11000/guess.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tree/00100/11010/guess.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tree/00100/11100/guess.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tree/00100/10002/guess.yml" beforeDir="false" afterPath="$PROJECT_DIR$/tree/00100/10002/guess.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tree/00100/guess.yml" beforeDir="false" afterPath="$PROJECT_DIR$/tree/00100/guess.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tree/00101/01010/guess.yml" beforeDir="false" afterPath="$PROJECT_DIR$/tree/00101/01010/guess.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tree/00101/01011/guess.yml" beforeDir="false" afterPath="$PROJECT_DIR$/tree/00101/01011/guess.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tree/00101/01012/guess.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tree/00101/01020/guess.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tree/00101/01021/guess.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tree/00101/01022/guess.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tree/00101/01110/guess.yml" beforeDir="false" afterPath="$PROJECT_DIR$/tree/00101/01110/guess.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tree/00101/01111/guess.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tree/00101/01120/guess.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tree/00101/01210/guess.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tree/00101/02010/guess.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tree/00101/02020/guess.yml" beforeDir="false" afterPath="$PROJECT_DIR$/tree/00101/02020/guess.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tree/00101/02022/guess.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tree/00101/02120/guess.yml" beforeDir="false" afterPath="$PROJECT_DIR$/tree/00101/02120/guess.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tree/00101/12120/guess.yml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/tree/00101/guess.yml" beforeDir="false" afterPath="$PROJECT_DIR$/tree/00101/guess.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tree/00102/01010/guess.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tree/00102/01020/guess.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tree/00102/02000/guess.yml" beforeDir="false" afterPath="$PROJECT_DIR$/tree/00102/02000/guess.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tree/00102/02010/guess.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tree/00102/02011/guess.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tree/00102/02020/guess.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tree/00102/02200/guess.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tree/00102/02201/guess.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tree/00102/11020/guess.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tree/00102/22000/guess.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tree/00102/12000/guess.yml" beforeDir="false" afterPath="$PROJECT_DIR$/tree/00102/12000/guess.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tree/00102/guess.yml" beforeDir="false" afterPath="$PROJECT_DIR$/tree/00102/guess.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tree/00110/00001/guess.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tree/00110/00002/guess.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tree/00110/00022/10000/guess.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tree/00110/00022/guess.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tree/00110/00102/guess.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tree/00110/00111/guess.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tree/00110/00222/guess.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tree/00110/01001/guess.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tree/00110/01002/guess.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tree/00110/01101/guess.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tree/00110/10001/00000/guess.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tree/00110/10001/guess.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tree/00110/10100/guess.yml" beforeDir="false" afterPath="$PROJECT_DIR$/tree/00110/10100/guess.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tree/00110/guess.yml" beforeDir="false" afterPath="$PROJECT_DIR$/tree/00110/guess.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tree/00111/00101/guess.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tree/00111/00102/guess.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tree/00111/00201/guess.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tree/00111/00202/guess.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tree/00111/01101/guess.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tree/00111/guess.yml" beforeDir="false" afterPath="$PROJECT_DIR$/tree/00111/guess.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tree/00112/guess.yml" beforeDir="false" afterPath="$PROJECT_DIR$/tree/00112/guess.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tree/00120/00002/00001/guess.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tree/00120/00002/guess.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tree/00120/10002/guess.yml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/tree/00120/guess.yml" beforeDir="false" afterPath="$PROJECT_DIR$/tree/00120/guess.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tree/00121/guess.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tree/00122/10001/guess.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tree/00122/guess.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tree/00200/00001/22200/guess.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tree/00200/00001/guess.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tree/00200/00011/guess.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tree/00200/00100/guess.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tree/00200/00101/guess.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tree/00200/01001/guess.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tree/00200/01100/guess.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tree/00200/02000/guess.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tree/00200/02001/guess.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tree/00200/02010/guess.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tree/00200/02110/guess.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tree/00200/10000/guess.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tree/00200/10001/guess.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tree/00200/11001/guess.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tree/00200/12000/guess.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tree/00200/22000/guess.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tree/00200/00220/guess.yml" beforeDir="false" afterPath="$PROJECT_DIR$/tree/00200/00220/guess.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tree/00200/10200/guess.yml" beforeDir="false" afterPath="$PROJECT_DIR$/tree/00200/10200/guess.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tree/00200/guess.yml" beforeDir="false" afterPath="$PROJECT_DIR$/tree/00200/guess.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tree/00201/02010/guess.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tree/00201/12000/guess.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tree/00201/22000/guess.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tree/00201/00020/guess.yml" beforeDir="false" afterPath="$PROJECT_DIR$/tree/00201/00020/guess.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tree/00201/guess.yml" beforeDir="false" afterPath="$PROJECT_DIR$/tree/00201/guess.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tree/00202/00000/guess.yml" beforeDir="false" afterPath="$PROJECT_DIR$/tree/00202/00000/guess.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tree/00202/00001/guess.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tree/00202/00010/guess.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tree/00202/00011/guess.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tree/00202/00020/guess.yml" beforeDir="false" afterPath="$PROJECT_DIR$/tree/00202/00020/guess.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tree/00202/01000/guess.yml" beforeDir="false" afterPath="$PROJECT_DIR$/tree/00202/01000/guess.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tree/00202/01010/guess.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tree/00202/02000/01011/guess.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tree/00202/02000/guess.yml" beforeDir="false" afterPath="$PROJECT_DIR$/tree/00202/02000/guess.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tree/00202/10000/guess.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tree/00202/22000/guess.yml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/tree/00202/guess.yml" beforeDir="false" afterPath="$PROJECT_DIR$/tree/00202/guess.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tree/00210/00010/guess.yml" beforeDir="false" afterPath="$PROJECT_DIR$/tree/00210/00010/guess.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tree/00210/00011/guess.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tree/00210/00100/guess.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tree/00210/01000/guess.yml" beforeDir="false" afterPath="$PROJECT_DIR$/tree/00210/01000/guess.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tree/00210/01010/guess.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tree/00210/10010/guess.yml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/tree/00210/guess.yml" beforeDir="false" afterPath="$PROJECT_DIR$/tree/00210/guess.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tree/00211/02201/guess.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tree/00211/guess.yml" beforeDir="false" afterPath="$PROJECT_DIR$/tree/00211/guess.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tree/00212/guess.yml" beforeDir="false" afterPath="$PROJECT_DIR$/tree/00212/guess.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tree/00221/guess.yml" beforeDir="false" afterPath="$PROJECT_DIR$/tree/00221/guess.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tree/00222/00001/guess.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tree/00222/guess.yml" beforeDir="false" afterPath="$PROJECT_DIR$/tree/00222/guess.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tree/01000/00020/guess.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tree/00220/guess.yml" beforeDir="false" afterPath="$PROJECT_DIR$/tree/00220/guess.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tree/01000/00100/guess.yml" beforeDir="false" afterPath="$PROJECT_DIR$/tree/01000/00100/guess.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tree/01000/00101/guess.yml" beforeDir="false" afterPath="$PROJECT_DIR$/tree/01000/00101/guess.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tree/01000/00201/guess.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tree/01000/00210/guess.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tree/01000/00221/guess.yml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/tree/01000/01100/guess.yml" beforeDir="false" afterPath="$PROJECT_DIR$/tree/01000/01100/guess.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tree/01000/01101/guess.yml" beforeDir="false" afterPath="$PROJECT_DIR$/tree/01000/01101/guess.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tree/01000/01201/guess.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tree/01000/02020/guess.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tree/01000/02120/guess.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tree/01000/02200/guess.yml" beforeDir="false" afterPath="$PROJECT_DIR$/tree/01000/02200/guess.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tree/01000/10201/guess.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tree/01000/20200/guess.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tree/01000/20201/guess.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tree/01000/20202/guess.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tree/01000/20220/guess.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tree/01000/21020/guess.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tree/01000/21220/guess.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tree/01000/02000/guess.yml" beforeDir="false" afterPath="$PROJECT_DIR$/tree/01000/02000/guess.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tree/01000/20100/guess.yml" beforeDir="false" afterPath="$PROJECT_DIR$/tree/01000/20100/guess.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tree/01000/guess.yml" beforeDir="false" afterPath="$PROJECT_DIR$/tree/01000/guess.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tree/01001/00010/guess.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tree/01001/00021/guess.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tree/01001/00210/guess.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tree/01001/00222/guess.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tree/01001/01021/guess.yml" beforeDir="false" afterPath="$PROJECT_DIR$/tree/01001/01021/guess.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tree/01001/01010/guess.yml" beforeDir="false" afterPath="$PROJECT_DIR$/tree/01001/01010/guess.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tree/01001/01020/guess.yml" beforeDir="false" afterPath="$PROJECT_DIR$/tree/01001/01020/guess.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tree/01001/02010/guess.yml" beforeDir="false" afterPath="$PROJECT_DIR$/tree/01001/02010/guess.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tree/01001/02011/guess.yml" beforeDir="false" afterPath="$PROJECT_DIR$/tree/01001/02011/guess.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tree/01001/11010/guess.yml" beforeDir="false" afterPath="$PROJECT_DIR$/tree/01001/11010/guess.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tree/01001/11021/guess.yml" beforeDir="false" afterPath="$PROJECT_DIR$/tree/01001/11021/guess.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tree/01001/guess.yml" beforeDir="false" afterPath="$PROJECT_DIR$/tree/01001/guess.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tree/01002/00000/guess.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tree/01002/00001/guess.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tree/01002/00100/guess.yml" beforeDir="false" afterPath="$PROJECT_DIR$/tree/01002/00100/guess.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tree/01002/00200/guess.yml" beforeDir="false" afterPath="$PROJECT_DIR$/tree/01002/00200/guess.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tree/01002/01000/guess.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tree/01002/01200/guess.yml" beforeDir="false" afterPath="$PROJECT_DIR$/tree/01002/01200/guess.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tree/01002/10000/guess.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tree/01002/10010/guess.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tree/01002/20000/guess.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tree/01002/20001/guess.yml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/tree/01002/guess.yml" beforeDir="false" afterPath="$PROJECT_DIR$/tree/01002/guess.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tree/01010/00000/guess.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tree/01010/00100/guess.yml" beforeDir="false" afterPath="$PROJECT_DIR$/tree/01010/00100/guess.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tree/01010/00210/guess.yml" beforeDir="false" afterPath="$PROJECT_DIR$/tree/01010/00210/guess.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tree/01010/01000/guess.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tree/01010/01001/guess.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tree/01010/10000/guess.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tree/01010/10200/guess.yml" beforeDir="false" afterPath="$PROJECT_DIR$/tree/01010/10200/guess.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tree/01010/guess.yml" beforeDir="false" afterPath="$PROJECT_DIR$/tree/01010/guess.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tree/01011/guess.yml" beforeDir="false" afterPath="$PROJECT_DIR$/tree/01011/guess.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tree/01012/guess.yml" beforeDir="false" afterPath="$PROJECT_DIR$/tree/01012/guess.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tree/01012/00000/guess.yml" beforeDir="false" afterPath="$PROJECT_DIR$/tree/01012/00000/guess.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tree/01020/guess.yml" beforeDir="false" afterPath="$PROJECT_DIR$/tree/01020/guess.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tree/01021/guess.yml" beforeDir="false" afterPath="$PROJECT_DIR$/tree/01021/guess.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tree/01022/guess.yml" beforeDir="false" afterPath="$PROJECT_DIR$/tree/01022/guess.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tree/01100/00010/guess.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tree/01100/00020/guess.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tree/01100/00110/guess.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tree/01100/00120/guess.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tree/01100/00210/guess.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tree/01100/00220/guess.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tree/01100/01010/guess.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tree/01100/10010/guess.yml" beforeDir="false" afterPath="$PROJECT_DIR$/tree/01100/10010/guess.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tree/01100/10011/guess.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tree/01100/10020/guess.yml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/tree/01100/guess.yml" beforeDir="false" afterPath="$PROJECT_DIR$/tree/01100/guess.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tree/01101/guess.yml" beforeDir="false" afterPath="$PROJECT_DIR$/tree/01101/guess.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tree/01102/guess.yml" beforeDir="false" afterPath="$PROJECT_DIR$/tree/01102/guess.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tree/01110/10201/guess.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tree/01110/11100/guess.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tree/01110/20200/guess.yml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/tree/01110/guess.yml" beforeDir="false" afterPath="$PROJECT_DIR$/tree/01110/guess.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tree/01200/guess.yml" beforeDir="false" afterPath="$PROJECT_DIR$/tree/01200/guess.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tree/01202/guess.yml" beforeDir="false" afterPath="$PROJECT_DIR$/tree/01202/guess.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tree/02000/00000/guess.yml" beforeDir="false" afterPath="$PROJECT_DIR$/tree/02000/00000/guess.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tree/02000/00002/guess.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tree/02000/00012/guess.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tree/02000/00022/guess.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tree/02000/00200/02020/guess.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tree/02000/00200/guess.yml" beforeDir="false" afterPath="$PROJECT_DIR$/tree/02000/00200/guess.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tree/02000/00210/02000/guess.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tree/02000/00210/guess.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tree/02000/00001/guess.yml" beforeDir="false" afterPath="$PROJECT_DIR$/tree/02000/00001/guess.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tree/02000/00100/guess.yml" beforeDir="false" afterPath="$PROJECT_DIR$/tree/02000/00100/guess.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tree/02000/00101/guess.yml" beforeDir="false" afterPath="$PROJECT_DIR$/tree/02000/00101/guess.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tree/02000/01000/guess.yml" beforeDir="false" afterPath="$PROJECT_DIR$/tree/02000/01000/guess.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tree/02000/01002/00100/guess.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tree/02000/01002/guess.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tree/02000/01012/guess.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tree/02000/01100/guess.yml" beforeDir="false" afterPath="$PROJECT_DIR$/tree/02000/01100/guess.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tree/02000/01210/guess.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tree/02000/11002/guess.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tree/02000/20000/guess.yml" beforeDir="false" afterPath="$PROJECT_DIR$/tree/02000/20000/guess.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tree/02000/20002/guess.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tree/02000/21000/guess.yml" beforeDir="false" afterPath="$PROJECT_DIR$/tree/02000/21000/guess.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tree/02000/guess.yml" beforeDir="false" afterPath="$PROJECT_DIR$/tree/02000/guess.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tree/02001/00000/guess.yml" beforeDir="false" afterPath="$PROJECT_DIR$/tree/02001/00000/guess.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tree/02001/00010/guess.yml" beforeDir="false" afterPath="$PROJECT_DIR$/tree/02001/00010/guess.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tree/02001/00100/guess.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tree/02001/01000/guess.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tree/02001/01200/guess.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tree/02001/10000/guess.yml" beforeDir="false" afterPath="$PROJECT_DIR$/tree/02001/10000/guess.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tree/02001/20100/guess.yml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/tree/02001/guess.yml" beforeDir="false" afterPath="$PROJECT_DIR$/tree/02001/guess.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tree/02002/00000/guess.yml" beforeDir="false" afterPath="$PROJECT_DIR$/tree/02002/00000/guess.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tree/02002/00001/guess.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tree/02002/00100/guess.yml" beforeDir="false" afterPath="$PROJECT_DIR$/tree/02002/00100/guess.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tree/02002/01000/guess.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tree/02002/01001/guess.yml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/tree/02002/guess.yml" beforeDir="false" afterPath="$PROJECT_DIR$/tree/02002/guess.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tree/02010/00000/guess.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tree/02010/00011/guess.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tree/02010/00020/guess.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tree/02010/00110/guess.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tree/02010/01000/guess.yml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/tree/02010/guess.yml" beforeDir="false" afterPath="$PROJECT_DIR$/tree/02010/guess.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tree/02011/guess.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tree/02020/01200/guess.yml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/tree/02020/guess.yml" beforeDir="false" afterPath="$PROJECT_DIR$/tree/02020/guess.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tree/02100/00010/guess.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tree/02100/00110/guess.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tree/02100/10020/guess.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tree/02100/20020/guess.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tree/02022/guess.yml" beforeDir="false" afterPath="$PROJECT_DIR$/tree/02022/guess.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tree/02100/guess.yml" beforeDir="false" afterPath="$PROJECT_DIR$/tree/02100/guess.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tree/02110/guess.yml" beforeDir="false" afterPath="$PROJECT_DIR$/tree/02110/guess.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tree/02200/guess.yml" beforeDir="false" afterPath="$PROJECT_DIR$/tree/02200/guess.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tree/02210/guess.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tree/10000/00000/guess.yml" beforeDir="false" afterPath="$PROJECT_DIR$/tree/10000/00000/guess.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tree/10000/00002/guess.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tree/10000/00020/guess.yml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/tree/10000/00100/guess.yml" beforeDir="false" afterPath="$PROJECT_DIR$/tree/10000/00100/guess.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tree/10000/00200/guess.yml" beforeDir="false" afterPath="$PROJECT_DIR$/tree/10000/00200/guess.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tree/10000/01000/guess.yml" beforeDir="false" afterPath="$PROJECT_DIR$/tree/10000/01000/guess.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tree/10000/01002/guess.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tree/10000/01100/guess.yml" beforeDir="false" afterPath="$PROJECT_DIR$/tree/10000/01100/guess.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tree/10000/01200/guess.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tree/10000/10002/guess.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tree/10000/10200/guess.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tree/10000/20002/guess.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tree/10000/20100/guess.yml" beforeDir="false" afterPath="$PROJECT_DIR$/tree/10000/20100/guess.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tree/10000/22100/guess.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tree/10000/01001/guess.yml" beforeDir="false" afterPath="$PROJECT_DIR$/tree/10000/01001/guess.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tree/10000/02000/guess.yml" beforeDir="false" afterPath="$PROJECT_DIR$/tree/10000/02000/guess.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tree/10000/guess.yml" beforeDir="false" afterPath="$PROJECT_DIR$/tree/10000/guess.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tree/10001/00010/00202/guess.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tree/10001/00010/00222/guess.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tree/10001/00010/guess.yml" beforeDir="false" afterPath="$PROJECT_DIR$/tree/10001/00010/guess.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tree/10001/00011/guess.yml" beforeDir="false" afterPath="$PROJECT_DIR$/tree/10001/00011/guess.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tree/10001/00020/00100/guess.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tree/10001/00020/00101/guess.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tree/10001/00020/00111/guess.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tree/10001/00020/00201/guess.yml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/tree/10001/00020/guess.yml" beforeDir="false" afterPath="$PROJECT_DIR$/tree/10001/00020/guess.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tree/10001/00021/guess.yml" beforeDir="false" afterPath="$PROJECT_DIR$/tree/10001/00021/guess.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tree/10001/00022/guess.yml" beforeDir="false" afterPath="$PROJECT_DIR$/tree/10001/00022/guess.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tree/10001/00110/guess.yml" beforeDir="false" afterPath="$PROJECT_DIR$/tree/10001/00110/guess.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tree/10001/00120/guess.yml" beforeDir="false" afterPath="$PROJECT_DIR$/tree/10001/00120/guess.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tree/10001/01020/guess.yml" beforeDir="false" afterPath="$PROJECT_DIR$/tree/10001/01020/guess.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tree/10001/01022/guess.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tree/10001/01120/guess.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tree/10001/02020/00000/guess.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tree/10001/02020/00200/guess.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tree/10001/02020/guess.yml" beforeDir="false" afterPath="$PROJECT_DIR$/tree/10001/02020/guess.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tree/10001/02021/guess.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tree/10001/02120/guess.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tree/10001/10010/guess.yml" beforeDir="false" afterPath="$PROJECT_DIR$/tree/10001/10010/guess.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tree/10001/12020/guess.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tree/10001/20010/guess.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tree/10001/20020/01110/guess.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tree/10001/20020/guess.yml" beforeDir="false" afterPath="$PROJECT_DIR$/tree/10001/20020/guess.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tree/10001/00220/guess.yml" beforeDir="false" afterPath="$PROJECT_DIR$/tree/10001/00220/guess.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tree/10001/guess.yml" beforeDir="false" afterPath="$PROJECT_DIR$/tree/10001/guess.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tree/10002/00000/guess.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tree/10002/00001/guess.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tree/10002/00101/guess.yml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/tree/10002/01000/guess.yml" beforeDir="false" afterPath="$PROJECT_DIR$/tree/10002/01000/guess.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tree/10002/01020/guess.yml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/tree/10002/02000/guess.yml" beforeDir="false" afterPath="$PROJECT_DIR$/tree/10002/02000/guess.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tree/10002/20100/guess.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tree/10002/20200/guess.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tree/10002/21000/guess.yml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/tree/10002/guess.yml" beforeDir="false" afterPath="$PROJECT_DIR$/tree/10002/guess.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tree/10010/00001/guess.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tree/10010/00201/guess.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tree/10010/00202/guess.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tree/10010/10002/guess.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tree/10010/20002/guess.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tree/10010/10000/guess.yml" beforeDir="false" afterPath="$PROJECT_DIR$/tree/10010/10000/guess.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tree/10010/guess.yml" beforeDir="false" afterPath="$PROJECT_DIR$/tree/10010/guess.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tree/10011/00022/guess.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tree/10011/02022/guess.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tree/10011/10001/guess.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tree/10011/10021/guess.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tree/10011/10022/guess.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tree/10011/11001/guess.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tree/10011/11002/guess.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tree/10011/20001/guess.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tree/10011/20011/guess.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tree/10011/20022/guess.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tree/10011/guess.yml" beforeDir="false" afterPath="$PROJECT_DIR$/tree/10011/guess.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tree/10012/guess.yml" beforeDir="false" afterPath="$PROJECT_DIR$/tree/10012/guess.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tree/10020/guess.yml" beforeDir="false" afterPath="$PROJECT_DIR$/tree/10020/guess.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tree/10021/guess.yml" beforeDir="false" afterPath="$PROJECT_DIR$/tree/10021/guess.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tree/10022/guess.yml" beforeDir="false" afterPath="$PROJECT_DIR$/tree/10022/guess.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tree/10100/01020/guess.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tree/10100/01100/guess.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tree/10100/01110/guess.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tree/10100/01200/guess.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tree/10100/01210/guess.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tree/10100/02020/guess.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tree/10100/02100/guess.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tree/10100/02200/guess.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tree/10100/02201/guess.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tree/10100/02220/guess.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tree/10100/11201/guess.yml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/tree/10100/guess.yml" beforeDir="false" afterPath="$PROJECT_DIR$/tree/10100/guess.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tree/10101/01000/00010/guess.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tree/10101/01000/guess.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tree/10101/01001/guess.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tree/10101/01010/guess.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tree/10101/01100/guess.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tree/10101/02000/02000/guess.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tree/10101/02000/02100/guess.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tree/10101/02000/guess.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tree/10101/02001/guess.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tree/10101/02010/guess.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tree/10101/02100/guess.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tree/10101/11000/guess.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tree/10101/21000/guess.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tree/10101/02220/guess.yml" beforeDir="false" afterPath="$PROJECT_DIR$/tree/10101/02220/guess.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tree/10101/guess.yml" beforeDir="false" afterPath="$PROJECT_DIR$/tree/10101/guess.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tree/10102/02000/guess.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tree/10102/guess.yml" beforeDir="false" afterPath="$PROJECT_DIR$/tree/10102/guess.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tree/10110/20020/guess.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tree/10110/guess.yml" beforeDir="false" afterPath="$PROJECT_DIR$/tree/10110/guess.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tree/10111/11100/guess.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tree/10111/11200/guess.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tree/10111/12100/guess.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tree/10111/21200/guess.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tree/10111/22100/guess.yml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/tree/10111/guess.yml" beforeDir="false" afterPath="$PROJECT_DIR$/tree/10111/guess.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tree/10120/guess.yml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/tree/10200/00000/guess.yml" beforeDir="false" afterPath="$PROJECT_DIR$/tree/10200/00000/guess.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tree/10200/00001/guess.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tree/10200/00002/guess.yml" beforeDir="false" afterPath="$PROJECT_DIR$/tree/10200/00002/guess.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tree/10200/00010/guess.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tree/10200/00011/guess.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tree/10200/00100/guess.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tree/10200/00101/guess.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tree/10200/00110/guess.yml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/tree/10200/01000/guess.yml" beforeDir="false" afterPath="$PROJECT_DIR$/tree/10200/01000/guess.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tree/10200/10000/guess.yml" beforeDir="false" afterPath="$PROJECT_DIR$/tree/10200/10000/guess.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tree/10200/20000/guess.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tree/10200/guess.yml" beforeDir="false" afterPath="$PROJECT_DIR$/tree/10200/guess.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tree/10201/guess.yml" beforeDir="false" afterPath="$PROJECT_DIR$/tree/10201/guess.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tree/10202/01000/guess.yml" beforeDir="false" afterPath="$PROJECT_DIR$/tree/10202/01000/guess.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tree/10202/01001/guess.yml" beforeDir="false" afterPath="$PROJECT_DIR$/tree/10202/01001/guess.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tree/10202/02000/guess.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tree/10202/02010/guess.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tree/10202/22000/guess.yml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/tree/10202/guess.yml" beforeDir="false" afterPath="$PROJECT_DIR$/tree/10202/guess.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tree/10210/01000/guess.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tree/10210/01001/guess.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tree/10210/02000/guess.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tree/10210/02100/guess.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tree/10210/12000/guess.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tree/10210/guess.yml" beforeDir="false" afterPath="$PROJECT_DIR$/tree/10210/guess.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tree/10211/guess.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tree/10212/guess.yml" beforeDir="false" afterPath="$PROJECT_DIR$/tree/10212/guess.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tree/10222/guess.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tree/11000/01010/guess.yml" beforeDir="false" afterPath="$PROJECT_DIR$/tree/11000/01010/guess.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tree/11000/01012/guess.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tree/11000/01020/guess.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tree/11000/01110/guess.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tree/11000/01120/guess.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tree/11000/02010/guess.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tree/11000/02011/guess.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tree/11000/02012/00000/guess.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tree/11000/02012/guess.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tree/11000/01000/guess.yml" beforeDir="false" afterPath="$PROJECT_DIR$/tree/11000/01000/guess.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tree/11000/01100/guess.yml" beforeDir="false" afterPath="$PROJECT_DIR$/tree/11000/01100/guess.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tree/11000/02000/guess.yml" beforeDir="false" afterPath="$PROJECT_DIR$/tree/11000/02000/guess.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tree/11000/02020/guess.yml" beforeDir="false" afterPath="$PROJECT_DIR$/tree/11000/02020/guess.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tree/11000/12010/guess.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tree/11000/22010/guess.yml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/tree/11000/guess.yml" beforeDir="false" afterPath="$PROJECT_DIR$/tree/11000/guess.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tree/11001/01021/guess.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tree/11001/00110/guess.yml" beforeDir="false" afterPath="$PROJECT_DIR$/tree/11001/00110/guess.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tree/11001/10110/guess.yml" beforeDir="false" afterPath="$PROJECT_DIR$/tree/11001/10110/guess.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tree/11001/guess.yml" beforeDir="false" afterPath="$PROJECT_DIR$/tree/11001/guess.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tree/11002/00200/guess.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tree/11002/00201/guess.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tree/11002/00220/guess.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tree/11002/20200/guess.yml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/tree/11002/guess.yml" beforeDir="false" afterPath="$PROJECT_DIR$/tree/11002/guess.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tree/11010/00101/guess.yml" beforeDir="false" afterPath="$PROJECT_DIR$/tree/11010/00101/guess.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tree/11010/00111/guess.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tree/11010/00201/guess.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tree/11010/00202/guess.yml" beforeDir="false" afterPath="$PROJECT_DIR$/tree/11010/00202/guess.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tree/11010/00222/guess.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tree/11010/20201/guess.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tree/11010/20202/guess.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tree/11010/guess.yml" beforeDir="false" afterPath="$PROJECT_DIR$/tree/11010/guess.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tree/11011/guess.yml" beforeDir="false" afterPath="$PROJECT_DIR$/tree/11011/guess.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tree/11012/guess.yml" beforeDir="false" afterPath="$PROJECT_DIR$/tree/11012/guess.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tree/11020/guess.yml" beforeDir="false" afterPath="$PROJECT_DIR$/tree/11020/guess.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tree/11100/01010/guess.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tree/11100/01012/guess.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tree/11100/01020/guess.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tree/11100/01022/guess.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tree/11100/02020/guess.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tree/11100/22020/guess.yml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/tree/11100/guess.yml" beforeDir="false" afterPath="$PROJECT_DIR$/tree/11100/guess.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tree/11102/guess.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tree/11110/guess.yml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/tree/11200/guess.yml" beforeDir="false" afterPath="$PROJECT_DIR$/tree/11200/guess.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tree/12000/00000/guess.yml" beforeDir="false" afterPath="$PROJECT_DIR$/tree/12000/00000/guess.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tree/12000/00002/guess.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tree/12000/00010/guess.yml" beforeDir="false" afterPath="$PROJECT_DIR$/tree/12000/00010/guess.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tree/12000/guess.yml" beforeDir="false" afterPath="$PROJECT_DIR$/tree/12000/guess.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tree/12001/00000/00000/guess.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tree/12001/00000/guess.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tree/12001/00001/guess.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tree/12001/00010/guess.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tree/12001/00200/guess.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tree/12001/10000/guess.yml" beforeDir="false" afterPath="$PROJECT_DIR$/tree/12001/10000/guess.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tree/12001/10010/guess.yml" beforeDir="false" afterPath="$PROJECT_DIR$/tree/12001/10010/guess.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tree/12001/guess.yml" beforeDir="false" afterPath="$PROJECT_DIR$/tree/12001/guess.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tree/12002/00100/guess.yml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/tree/12002/guess.yml" beforeDir="false" afterPath="$PROJECT_DIR$/tree/12002/guess.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tree/12010/guess.yml" beforeDir="false" afterPath="$PROJECT_DIR$/tree/12010/guess.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tree/12011/guess.yml" beforeDir="false" afterPath="$PROJECT_DIR$/tree/12011/guess.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tree/12020/guess.yml" beforeDir="false" afterPath="$PROJECT_DIR$/tree/12020/guess.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tree/12100/guess.yml" beforeDir="false" afterPath="$PROJECT_DIR$/tree/12100/guess.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tree/12200/guess.yml" beforeDir="false" afterPath="$PROJECT_DIR$/tree/12200/guess.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tree/20000/guess.yml" beforeDir="false" afterPath="$PROJECT_DIR$/tree/20000/guess.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tree/20001/00011/guess.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tree/20001/00021/guess.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tree/20001/00022/guess.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tree/20001/00122/guess.yml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/tree/20001/guess.yml" beforeDir="false" afterPath="$PROJECT_DIR$/tree/20001/guess.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tree/20002/guess.yml" beforeDir="false" afterPath="$PROJECT_DIR$/tree/20002/guess.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tree/20011/02002/guess.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tree/20011/guess.yml" beforeDir="false" afterPath="$PROJECT_DIR$/tree/20011/guess.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tree/20100/00000/guess.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tree/20100/00001/guess.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tree/20100/00020/guess.yml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/tree/20100/guess.yml" beforeDir="false" afterPath="$PROJECT_DIR$/tree/20100/guess.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tree/20101/01000/guess.yml" beforeDir="false" afterPath="$PROJECT_DIR$/tree/20101/01000/guess.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tree/20101/01100/guess.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tree/20101/02000/guess.yml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/tree/20101/guess.yml" beforeDir="false" afterPath="$PROJECT_DIR$/tree/20101/guess.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tree/20102/guess.yml" beforeDir="false" afterPath="$PROJECT_DIR$/tree/20102/guess.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tree/20201/guess.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tree/21000/guess.yml" beforeDir="false" afterPath="$PROJECT_DIR$/tree/21000/guess.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tree/21100/guess.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tree/22000/guess.yml" beforeDir="false" afterPath="$PROJECT_DIR$/tree/22000/guess.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tree/21001/guess.yml" beforeDir="false" afterPath="$PROJECT_DIR$/tree/21001/guess.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tree/22001/guess.yml" beforeDir="false" afterPath="$PROJECT_DIR$/tree/22001/guess.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tree/22002/guess.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tree/22010/guess.yml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/tree/guess.yml" beforeDir="false" afterPath="$PROJECT_DIR$/tree/guess.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/valid_words.txt" beforeDir="false" afterPath="$PROJECT_DIR$/valid_words.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -757,8 +292,8 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.WordleSolver" />
-        <item itemvalue="Application.TreeWalker" />
         <item itemvalue="JUnit.GuessNodeTest" />
+        <item itemvalue="Application.TreeWalker" />
         <item itemvalue="JUnit.GuessLogicTest" />
         <item itemvalue="JUnit.GuessNodeTest.testTwoWords" />
       </list>

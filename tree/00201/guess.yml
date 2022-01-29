@@ -1,13 +1,13 @@
 guess: chynd
 results:
   01000: weigh
-  01010: neigh
-  00120: eying
-  02000: thief
   00010: feign
+  02000: thief
+  00120: eying
+  01010: neigh
+  00002: plied
   22000: chief
   10000: evict
-  00002: plied
-  00011: deign
   00000: quiet
+  00011: deign
   10001: edict

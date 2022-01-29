@@ -1,7 +1,7 @@
 guess: ulpan
 results:
-  00010: masse
   01010: false
+  00010: masse
   10110: pause
   10010: cause
   01210: lapse

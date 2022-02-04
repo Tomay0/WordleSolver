@@ -1,38 +1,20 @@
 package tomay0.wordle;
 
-import java.io.File;
+import java.io.FileWriter;
 import java.io.IOException;
-import java.nio.file.DirectoryStream;
-import java.nio.file.Files;
-import java.nio.file.LinkOption;
-import java.nio.file.Path;
+import java.io.PrintWriter;
 
 public class WordleSolver {
-  private static void deleteDirectoryRecursion(Path path) throws IOException {
-    if (Files.isDirectory(path, LinkOption.NOFOLLOW_LINKS)) {
-      try (DirectoryStream<Path> entries = Files.newDirectoryStream(path)) {
-        for (Path entry : entries) {
-          deleteDirectoryRecursion(entry);
-        }
-      }
-    }
-    Files.delete(path);
-  }
-
   public static void main(String[] args) throws IOException {
-    File dir = new File("tree");
-    if (dir.exists()) {
-      deleteDirectoryRecursion(dir.toPath());
-    }
-
     WordList allWords = WordList.getWordList("valid_words.txt");
     WordList possibleSolutions = WordList.getWordList("all_solutions.txt");
 
-    // create folder
-    GuessNode rootNode = new GuessNode(dir, allWords, possibleSolutions);
+    GuessNode rootNode = new GuessNode(null, new FastMetric(), allWords, possibleSolutions);
+    String json = rootNode.generateTree();
 
-    rootNode.generateTree();
+    PrintWriter writer = new PrintWriter(new FileWriter("wordle-solver-app/src/tree.json"));
+    writer.println(json);
+    writer.close();
 
-    TreeWalker.main(args);
   }
 }

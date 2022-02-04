@@ -1,6 +1,0 @@
-guess: plumb
-results:
-  01000: latch
-  00010: match
-  20000: patch
-  00001: batch

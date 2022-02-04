@@ -120,7 +120,7 @@ public class GuessLogic {
     return true;
   }
 
-  public WordList getPossibilities(WordList inputWords) {
+  public WordList getPossibilities(Collection<String> inputWords) {
     WordList wl = new WordList();
 
     for (String s : inputWords) {

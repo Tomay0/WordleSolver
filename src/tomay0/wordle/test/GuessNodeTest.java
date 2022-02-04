@@ -2,6 +2,7 @@ package tomay0.wordle.test;
 
 import org.junit.jupiter.api.Test;
 import tomay0.wordle.GuessNode;
+import tomay0.wordle.BalancedMetric;
 import tomay0.wordle.WordList;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
@@ -20,7 +21,7 @@ public class GuessNodeTest {
     assertTrue(allWords.contains("mummy"));
     assertTrue(allWords.contains("fuzzy"));
 
-    GuessNode node = new GuessNode(null, allWords, possible);
+    GuessNode node = new GuessNode(null, new BalancedMetric(), allWords, possible);
 
     String best = node.getBestGuessString();
 
@@ -39,7 +40,7 @@ public class GuessNodeTest {
     allWords.addAll(possible);
     allWords.add("uaozz");
 
-    GuessNode node = new GuessNode(null, allWords, possible);
+    GuessNode node = new GuessNode(null, new BalancedMetric(), allWords, possible);
 
     // this is the best because you can guess the correct answer immediately after in all circumstances
     assertEquals("uaozz", node.getBestGuessString());

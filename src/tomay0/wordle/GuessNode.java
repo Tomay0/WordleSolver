@@ -7,12 +7,14 @@ import java.util.stream.Collectors;
 public class GuessNode {
   private final WordList wordList;
   private final WordList possibleSolutions;
-  private final File dir;
 
   private Guess bestGuess = null;
+  private String parent;
+  private GuessMetric metric;
 
-  public GuessNode(File dir, WordList wordList, WordList possibleSolutions) {
-    this.dir = dir;
+  public GuessNode(String parent, GuessMetric metric, WordList wordList, WordList possibleSolutions) {
+    this.parent = parent;
+    this.metric = metric;
     this.wordList = wordList;
     this.possibleSolutions = possibleSolutions;
   }
@@ -34,9 +36,7 @@ public class GuessNode {
 
   public GuessNode fromLogic(GuessLogic logic) {
     WordList words = logic.getPossibilities(possibleSolutions);
-    File childDir = new File(dir, logic.fileSafeString());
-
-    return new GuessNode(childDir, wordList, words);
+    return new GuessNode(logic.fileSafeString(), metric, wordList, words);
   }
 
   public Collection<GuessNode> getChildNodes() {
@@ -44,6 +44,14 @@ public class GuessNode {
   }
 
   private Guess getGuess(String guess) {
+    Map<String, GuessLogic> allLogic = possibleSolutions.stream()
+        .collect(Collectors.toMap(x->x, solution->GuessLogic.generate(guess, solution)));
+
+    return new Guess(guess, metric.getMetric(allLogic, guess),
+        possibleSolutions.contains(guess), new HashSet<>(allLogic.values()));
+  }
+
+  private float getMetric(String guess) {
     Map<GuessLogic, Integer> possibilities = new HashMap<>();
 
     for (String solution : possibleSolutions) {
@@ -55,46 +63,29 @@ public class GuessNode {
       }
     }
 
-    int metric = possibilities.size() - Collections.max(possibilities.values());
-    boolean isInPossibilities = possibleSolutions.contains(guess);
-
-    return new Guess(guess, metric, isInPossibilities, possibilities.keySet());
+    return possibilities.size() - Collections.max(possibilities.values());
   }
 
 
-  public void generateTree() throws IOException {
-    if (possibleSolutions.size() < 2)
-      throw new IllegalStateException("This state is not meant to occur");
+  public String generateTree() {
+    if (isLeaf())
+      return '"' + possibleSolutions.iterator().next() + '"';
 
-    dir.mkdir();
+    StringBuilder sb = new StringBuilder();
 
     String guess = getBestGuess().guess;
-
-    Map<String, String> immediateGuesses = new HashMap<>();
+    sb.append("{\"guess\": \"" + guess + "\"");
 
     for (GuessNode child : getChildNodes()) {
-      if (child.isLeaf()) {
-        String pattern = child.dir.getName();
-        immediateGuesses.put(pattern, child.possibleSolutions.iterator().next());
-      } else {
-        child.generateTree();
-      }
+      String pattern = child.parent;
+      String tree = child.generateTree();
+
+      sb.append(", \"" + pattern + "\": " + tree);
     }
 
-    writeToFile(guess, immediateGuesses);
-  }
+    sb.append('}');
 
-  private void writeToFile(String guess, Map<String, String> immediateGuesses) throws IOException {
-    PrintWriter writer = new PrintWriter(new FileWriter(new File(dir, "guess.yml")));
-
-    writer.println("guess: " + guess);
-    writer.println("results:");
-
-    for (Map.Entry<String, String> entries : immediateGuesses.entrySet()) {
-      writer.println("  " + entries.getKey() + ": " + entries.getValue());
-    }
-
-    writer.close();
+    return sb.toString();
   }
 
   private record Guess(String guess, float metric, boolean isInPossibilities,

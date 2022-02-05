@@ -1,14 +1,18 @@
 import React from 'react';
-//import logo from './logo.svg';
 import './App.css';
 
-import {descend} from './util';
+import treeJson from "./fast_tree.json"
+import {descendTree, createTree, evaluateTree} from './tree';
 
 class App extends React.Component<{}, {guessList: Array<number>, wordList: Array<string>}> {
   constructor(props: {}) {
     super(props);
+    
+    const tree = createTree(treeJson);
 
-    descend("tree", [1, 1, 1, 1, 1]);
+    console.log(tree);
+    console.log(evaluateTree(tree));
+    console.log(descendTree(tree, "00000", [0, 0, 0, 0, 0]));
   }
 
   render() {

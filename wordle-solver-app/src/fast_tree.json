@@ -1,0 +1,3767 @@
+{
+  "guess": "roate",
+  "00000": {
+    "guess": "slink",
+    "02100": "fluid",
+    "21001": {
+      "guess": "sulky",
+      "22222": "sulky",
+      "21110": "skull"
+    },
+    "01010": {
+      "guess": "lynch",
+      "22222": "lynch",
+      "20222": "lunch"
+    },
+    "00100": {
+      "guess": "dumpy",
+      "00200": "mimic",
+      "00000": "civic",
+      "00022": "hippy",
+      "02000": "cubic",
+      "00012": "piggy",
+      "10002": {
+        "guess": "giddy",
+        "22222": "giddy",
+        "02222": "biddy"
+      },
+      "12200": "humid",
+      "00002": {
+        "guess": "jiffy",
+        "22222": "jiffy",
+        "02102": "fizzy"
+      },
+      "10000": "vivid",
+      "20002": "dizzy",
+      "00222": "wimpy",
+      "02010": "pubic"
+    },
+    "20201": {
+      "guess": "spiky",
+      "21210": "skimp",
+      "22222": "spiky",
+      "20210": "skiff"
+    },
+    "00120": "ninny",
+    "20012": "snuck",
+    "12000": {
+      "guess": "puffa",
+      "01100": "flush",
+      "01000": "blush",
+      "21000": "plush"
+    },
+    "00101": "picky",
+    "00220": {
+      "guess": "dying",
+      "02222": "vying",
+      "00222": "icing",
+      "01220": "whiny",
+      "22222": "dying"
+    },
+    "21100": "silly",
+    "22222": "slink",
+    "10202": "whisk",
+    "10100": {
+      "guess": "gipsy",
+      "02022": "missy",
+      "02112": "wispy",
+      "01010": "music",
+      "02010": "ficus",
+      "02012": "fishy",
+      "22222": "gipsy"
+    },
+    "22020": "slung",
+    "01200": {
+      "guess": "dungy",
+      "00000": {
+        "guess": "chili",
+        "22220": "chill",
+        "22222": "chili"
+      },
+      "02000": "quill",
+      "12010": "guild",
+      "12000": "build",
+      "00002": "icily",
+      "10000": "child"
+    },
+    "10001": {
+      "guess": "dumpy",
+      "02002": "husky",
+      "02102": "musky",
+      "22002": "dusky"
+    },
+    "20002": "shuck",
+    "21101": "silky",
+    "02222": {
+      "guess": "blink",
+      "02222": "clink",
+      "22222": "blink"
+    },
+    "00022": "chunk",
+    "00002": "chuck",
+    "22022": "slunk",
+    "12200": "bliss",
+    "22000": {
+      "guess": "slush",
+      "22200": "slump",
+      "22222": "slush",
+      "22000": "slyly"
+    },
+    "00111": {
+      "guess": "pinky",
+      "22222": "pinky",
+      "02222": "kinky"
+    },
+    "00202": {
+      "guess": "quick",
+      "22222": "quick",
+      "00222": "chick"
+    },
+    "22220": "sling",
+    "01001": {
+      "guess": "lucky",
+      "12022": "bulky",
+      "22222": "lucky"
+    },
+    "02220": {
+      "guess": "fling",
+      "22222": "fling",
+      "02222": "cling",
+      "02220": "blind"
+    },
+    "00010": {
+      "guess": "hempy",
+      "10100": "munch",
+      "10000": "bunch",
+      "10221": "nymph",
+      "20000": "hunch",
+      "10010": "punch"
+    },
+    "20020": {
+      "guess": "swung",
+      "22222": "swung",
+      "20120": "sunny"
+    },
+    "21000": {
+      "guess": "shyly",
+      "22222": "shyly",
+      "20022": "sully"
+    },
+    "22202": "slick",
+    "01100": {
+      "guess": "dumpy",
+      "00112": "imply",
+      "20002": "dilly",
+      "10001": "idyll",
+      "10010": "lipid",
+      "02010": "pupil",
+      "00002": {
+        "guess": "fowth",
+        "00100": "willy",
+        "20000": "filly",
+        "00000": "billy",
+        "00001": "hilly"
+      },
+      "00000": {
+        "guess": "civil",
+        "02122": "vigil",
+        "22222": "civil"
+      },
+      "10000": "livid",
+      "20202": "dimly",
+      "12000": "lucid",
+      "00102": "filmy"
+    },
+    "21200": {
+      "guess": "spill",
+      "22222": "spill",
+      "20222": "swill"
+    },
+    "00000": {
+      "guess": "dumpy",
+      "02012": "puffy",
+      "02002": {
+        "guess": "buggy",
+        "02002": "fuzzy",
+        "22222": "buggy"
+      },
+      "12012": "pudgy",
+      "22222": "dumpy",
+      "22002": "duchy",
+      "02222": "jumpy",
+      "02220": "humph",
+      "02202": {
+        "guess": "gummy",
+        "22222": "gummy",
+        "02222": "mummy"
+      },
+      "01110": "chump",
+      "12102": "muddy",
+      "22202": "dummy",
+      "02022": {
+        "guess": "puppy",
+        "02222": "guppy",
+        "22222": "puppy"
+      },
+      "12002": "buddy",
+      "00112": "pygmy"
+    },
+    "20000": "shush",
+    "10000": {
+      "guess": "hempy",
+      "10102": "mushy",
+      "00012": "gypsy",
+      "20002": "hussy",
+      "20200": "humus",
+      "10012": "pushy",
+      "00100": "mucus",
+      "00002": "fussy",
+      "10002": "bushy"
+    },
+    "20220": {
+      "guess": "dumpy",
+      "00012": "spiny",
+      "00002": "shiny",
+      "02000": "suing",
+      "00000": "swing"
+    },
+    "00011": {
+      "guess": "funky",
+      "22222": "funky",
+      "02222": "hunky"
+    },
+    "00001": "mucky",
+    "02202": {
+      "guess": "flick",
+      "02222": "click",
+      "22222": "flick"
+    },
+    "21201": "skill",
+    "21002": "skulk",
+    "02020": {
+      "guess": "flung",
+      "22222": "flung",
+      "02222": "clung"
+    },
+    "20022": {
+      "guess": "spunk",
+      "22222": "spunk",
+      "20222": "skunk"
+    },
+    "01110": "vinyl",
+    "01101": "milky",
+    "10110": "minus",
+    "11000": "lupus",
+    "00200": {
+      "guess": "juicy",
+      "22222": "juicy",
+      "00200": "whiff",
+      "00220": "which"
+    },
+    "20210": "sniff",
+    "00110": {
+      "guess": "dumpy",
+      "11000": "undid",
+      "00000": {
+        "guess": "wolfs",
+        "00000": "cinch",
+        "00010": "finch",
+        "20000": "winch"
+      },
+      "10002": "windy",
+      "00010": "pinch",
+      "00001": "cynic",
+      "00100": "minim",
+      "02200": "cumin",
+      "20002": "dingy",
+      "01010": "unzip",
+      "02000": "fungi"
+    },
+    "02002": {
+      "guess": "pluck",
+      "22222": "pluck",
+      "02222": "cluck"
+    },
+    "02022": {
+      "guess": "plunk",
+      "02222": "flunk",
+      "22222": "plunk"
+    },
+    "00020": {
+      "guess": "funny",
+      "22222": "funny",
+      "02222": "bunny"
+    },
+    "02000": {
+      "guess": "plumb",
+      "02201": "bluff",
+      "22222": "plumb",
+      "02200": "fluff",
+      "12000": "glyph",
+      "12220": "clump",
+      "22220": "plump"
+    },
+    "20010": "snuff",
+    "01220": "lying",
+    "01000": {
+      "guess": "podgy",
+      "00000": "mulch",
+      "20002": "pulpy",
+      "10001": "lymph",
+      "00010": "gulch",
+      "00012": "gully",
+      "00002": {
+        "guess": "fully",
+        "02222": "bully",
+        "22222": "fully"
+      },
+      "10002": "lumpy",
+      "00102": "dully"
+    },
+    "22200": "slimy",
+    "10220": "using",
+    "20200": {
+      "guess": "spicy",
+      "20200": "swish",
+      "22222": "spicy"
+    },
+    "02200": {
+      "guess": "blimp",
+      "02200": "cliff",
+      "12220": "climb",
+      "22222": "blimp"
+    },
+    "20100": {
+      "guess": "sissy",
+      "22222": "sissy",
+      "21200": "sushi",
+      "21000": "squib"
+    },
+    "00210": "unify"
+  },
+  "11100": {
+    "guess": "calms",
+    "11000": "acorn",
+    "01010": "armor",
+    "21000": "croak",
+    "01020": "aroma",
+    "02001": "savor",
+    "02200": "valor",
+    "22000": "cargo",
+    "02010": {
+      "guess": "neddy",
+      "00000": "major",
+      "00001": "mayor",
+      "10000": "manor"
+    },
+    "01001": "arson",
+    "12010": "macro",
+    "02100": "labor",
+    "01000": {
+      "guess": "broad",
+      "11110": "abhor",
+      "01110": "apron",
+      "22222": "broad",
+      "01210": "agora",
+      "02111": "ardor",
+      "02120": "organ",
+      "02110": "arrow",
+      "12110": "arbor",
+      "02220": "groan",
+      "01211": "adorn"
+    },
+    "22100": "carol",
+    "01100": "flora",
+    "02000": {
+      "guess": "vapor",
+      "22222": "vapor",
+      "12022": "favor",
+      "02021": "baron"
+    }
+  },
+  "00202": {
+    "guess": "schul",
+    "00101": "whale",
+    "10010": "usage",
+    "01000": "peace",
+    "10100": "phase",
+    "00001": {
+      "guess": "bemad",
+      "21010": "blaze",
+      "01011": "glade",
+      "01110": "flame",
+      "02010": "leave",
+      "01010": {
+        "guess": "fagot",
+        "01100": "glaze",
+        "21000": "flake",
+        "01000": "plane"
+      },
+      "21110": "blame",
+      "21011": "blade"
+    },
+    "10001": "lease",
+    "11000": "cease",
+    "20000": {
+      "guess": "snake",
+      "22222": "snake",
+      "20202": "spade"
+    },
+    "00010": "quake",
+    "22001": "scale",
+    "20101": "shale",
+    "00100": "heave",
+    "10000": "abase",
+    "11100": "chase",
+    "20100": {
+      "guess": "dumpy",
+      "00000": {
+        "guess": "shake",
+        "22202": "shave",
+        "22222": "shake"
+      },
+      "00100": "shame",
+      "00020": "shape",
+      "10000": "shade"
+    },
+    "20010": "suave",
+    "20001": "slave",
+    "00000": {
+      "guess": "admin",
+      "20100": "amaze",
+      "10000": "weave",
+      "22000": "adage",
+      "10011": "inane",
+      "10001": "knave",
+      "10110": "image",
+      "20000": {
+        "guess": "agape",
+        "20202": "awake",
+        "22222": "agape"
+      },
+      "11000": "evade"
+    },
+    "21000": "space",
+    "01001": "place",
+    "01100": "chafe"
+  },
+  "00120": {
+    "guess": "spiny",
+    "10012": "nasty",
+    "00200": "faith",
+    "10002": {
+      "guess": "hasty",
+      "02222": "tasty",
+      "22222": "hasty"
+    },
+    "00002": {
+      "guess": "timbo",
+      "10010": "batty",
+      "10000": {
+        "guess": "fatty",
+        "22222": "fatty",
+        "02222": "catty"
+      },
+      "20000": "tatty"
+    },
+    "11000": "pasta",
+    "00010": "junta",
+    "11002": "pasty",
+    "00012": "aunty",
+    "01002": "patty",
+    "10100": "vista",
+    "00000": "waltz",
+    "00202": "amity",
+    "20002": "salty",
+    "00100": "cacti"
+  },
+  "01012": {
+    "guess": "slank",
+    "20001": "stoke",
+    "20020": "stone",
+    "20000": "stove",
+    "10000": "those",
+    "21000": "stole"
+  },
+  "00022": {
+    "guess": "pulis",
+    "00010": "white",
+    "01010": "unite",
+    "00110": "elite",
+    "02010": "quite",
+    "10011": "spite",
+    "00011": "smite",
+    "02011": "suite",
+    "01100": "flute",
+    "01000": "chute",
+    "02000": "butte"
+  },
+  "20120": "ratty",
+  "22200": "roach",
+  "11022": "wrote",
+  "20010": "right",
+  "12000": {
+    "guess": "cundy",
+    "20102": "corny",
+    "00200": "honor",
+    "00102": "horny",
+    "00012": "dowry",
+    "00210": "donor",
+    "00100": "moron",
+    "01000": "forum",
+    "00022": "wordy",
+    "00002": {
+      "guess": "zulus",
+      "00001": "sorry",
+      "00000": "worry",
+      "00100": "lorry"
+    },
+    "01100": "mourn",
+    "00010": "world",
+    "20000": "color",
+    "01010": "gourd",
+    "10000": "porch",
+    "00000": {
+      "guess": "forgo",
+      "02200": "morph",
+      "22222": "forgo"
+    }
+  },
+  "20100": {
+    "guess": "unbid",
+    "00222": "rabid",
+    "01001": "randy",
+    "00022": "rapid",
+    "00001": "radar",
+    "01000": "ranch",
+    "00010": "rival",
+    "10100": "rumba",
+    "00021": "radii",
+    "00210": "rabbi",
+    "01010": "rainy",
+    "00000": {
+      "guess": "rally",
+      "22000": "rajah",
+      "22222": "rally",
+      "22002": "raspy",
+      "22200": "ralph"
+    },
+    "10000": "rural"
+  },
+  "20001": {
+    "guess": "nidus",
+    "00022": "rebus",
+    "02000": {
+      "guess": "riper",
+      "22222": "riper",
+      "22022": "river"
+    },
+    "02001": "riser",
+    "11000": "reign",
+    "11001": "resin",
+    "02200": "rider",
+    "00210": "ruder",
+    "01000": "relic",
+    "10020": "rerun",
+    "00100": "reedy",
+    "00020": "recur",
+    "12001": "risen",
+    "12000": "ripen",
+    "10000": "renew",
+    "00010": "ruler",
+    "00000": {
+      "guess": "vaper",
+      "10021": "revel",
+      "00211": "reply",
+      "00022": "refer",
+      "00221": "repel",
+      "00021": "rebel"
+    }
+  },
+  "01001": {
+    "guess": "demon",
+    "02121": "venom",
+    "02020": "below",
+    "01021": {
+      "guess": "envoy",
+      "22222": "envoy",
+      "22022": "enjoy"
+    },
+    "02010": {
+      "guess": "hello",
+      "02002": "gecko",
+      "02222": "cello",
+      "22222": "hello"
+    },
+    "22020": "decoy",
+    "01020": "elbow",
+    "01011": "ebony",
+    "02222": "lemon",
+    "11021": "endow",
+    "01010": {
+      "guess": "epoch",
+      "22200": "epoxy",
+      "22222": "epoch"
+    },
+    "02122": "melon",
+    "11010": "video",
+    "22222": "demon",
+    "11012": "olden",
+    "02022": "felon"
+  },
+  "22210": "roast",
+  "12120": "aorta",
+  "12100": {
+    "guess": "balms",
+    "01210": "molar",
+    "01000": "foray",
+    "01201": "solar",
+    "21000": "borax",
+    "11000": "cobra",
+    "01110": "moral",
+    "01100": "coral",
+    "01001": "sonar",
+    "01200": "polar"
+  },
+  "22022": "route",
+  "00201": {
+    "guess": "child",
+    "01010": "leash",
+    "01000": "heavy",
+    "11010": "leach",
+    "11000": {
+      "guess": "peach",
+      "02222": "beach",
+      "22222": "peach"
+    },
+    "01001": "heady",
+    "00001": "beady",
+    "00110": "email",
+    "00010": {
+      "guess": "leafy",
+      "22222": "leafy",
+      "22202": "leaky"
+    },
+    "00020": "mealy"
+  },
+  "01110": {
+    "guess": "bloat",
+    "02112": "allot",
+    "10112": "abbot",
+    "10212": "about",
+    "00212": {
+      "guess": "adopt",
+      "20202": "afoot",
+      "22222": "adopt"
+    },
+    "01211": "atoll",
+    "01111": "talon",
+    "00112": "ascot",
+    "10111": "taboo",
+    "01121": "octal",
+    "22222": "bloat",
+    "00111": {
+      "guess": "patio",
+      "22222": "patio",
+      "02102": "tango"
+    },
+    "02222": {
+      "guess": "float",
+      "22222": "float",
+      "02222": "gloat"
+    },
+    "02212": "aloft",
+    "20111": "baton"
+  },
+  "21011": "retro",
+  "00211": {
+    "guess": "leans",
+    "22200": "leapt",
+    "22201": "least",
+    "02220": "meant",
+    "01200": "exact",
+    "22220": "leant",
+    "02200": "teach",
+    "12200": "dealt",
+    "01210": "enact",
+    "02201": {
+      "guess": "festy",
+      "02110": "beast",
+      "02111": "yeast",
+      "22110": "feast"
+    },
+    "11200": "exalt"
+  },
+  "10002": {
+    "guess": "pings",
+    "00021": "surge",
+    "01010": "grime",
+    "00000": {
+      "guess": "curve",
+      "22222": "curve",
+      "21102": "crude",
+      "00102": "where",
+      "20102": "creme",
+      "00222": "verve"
+    },
+    "20000": {
+      "guess": "puree",
+      "22222": "puree",
+      "21102": "prude"
+    },
+    "02000": "fibre",
+    "00020": {
+      "guess": "merge",
+      "02222": "verge",
+      "22222": "merge"
+    },
+    "10001": "spree",
+    "01100": {
+      "guess": "urine",
+      "02222": "brine",
+      "22222": "urine"
+    },
+    "01001": "shire",
+    "20100": "prune",
+    "21000": {
+      "guess": "maced",
+      "00011": "pride",
+      "00110": "price",
+      "10010": "prime",
+      "00010": "prize"
+    },
+    "10000": "crepe",
+    "11010": "gripe",
+    "00101": "nurse",
+    "20020": "purge",
+    "02020": "dirge",
+    "01000": {
+      "guess": "bride",
+      "22222": "bride",
+      "01102": "eerie",
+      "22202": "bribe",
+      "02212": "drive",
+      "02202": "crime"
+    },
+    "00100": "nerve",
+    "11001": "spire",
+    "00210": "genre",
+    "20001": "purse",
+    "00001": {
+      "guess": "curse",
+      "22222": "curse",
+      "00212": "serve",
+      "00222": "verse",
+      "10212": "scree"
+    }
+  },
+  "02010": {
+    "guess": "mucin",
+    "20010": "moist",
+    "01001": "donut",
+    "00022": "toxin",
+    "21000": "moult",
+    "01100": "touch",
+    "00120": {
+      "guess": "topic",
+      "22222": "topic",
+      "22022": "toxic"
+    },
+    "00101": "notch",
+    "21001": "mount",
+    "00010": {
+      "guess": "fetch",
+      "00100": "joist",
+      "20100": "foist",
+      "00101": "hoist"
+    },
+    "01101": "count",
+    "00121": "tonic",
+    "20020": "motif",
+    "00020": "posit",
+    "00100": "botch",
+    "10020": "vomit",
+    "01000": {
+      "guess": "doubt",
+      "02201": "tough",
+      "22222": "doubt",
+      "02202": "joust"
+    },
+    "00000": {
+      "guess": "toddy",
+      "12002": "hotly",
+      "22222": "toddy",
+      "12000": "boost"
+    },
+    "00011": {
+      "guess": "joint",
+      "22222": "joint",
+      "02222": "point"
+    }
+  },
+  "10100": {
+    "guess": "marcs",
+    "02200": {
+      "guess": "parry",
+      "22222": "parry",
+      "02200": "larva",
+      "02202": "hardy",
+      "22200": "parka",
+      "12202": "harpy",
+      "02222": "harry"
+    },
+    "01211": "scrap",
+    "22201": "marsh",
+    "01101": "sugar",
+    "11100": "umbra",
+    "11211": "scram",
+    "02210": "carry",
+    "12200": "karma",
+    "01200": {
+      "guess": "viral",
+      "22222": "viral",
+      "00220": "array"
+    },
+    "01110": {
+      "guess": "vicar",
+      "22222": "vicar",
+      "02122": "cigar"
+    },
+    "01201": "spray",
+    "22200": "marry",
+    "01100": {
+      "guess": "urban",
+      "11010": "augur",
+      "11021": "lunar",
+      "01011": "angry",
+      "02020": "friar",
+      "02120": "briar",
+      "22222": "urban"
+    },
+    "02100": {
+      "guess": "hodad",
+      "00210": "nadir",
+      "00010": "fairy",
+      "20010": "hairy",
+      "00110": "dairy"
+    },
+    "22220": "march",
+    "02110": "cairn",
+    "02201": "harsh",
+    "01210": "acrid",
+    "21200": "mural",
+    "01220": "circa"
+  },
+  "00122": {
+    "guess": "schwa",
+    "02001": "acute",
+    "11001": "caste",
+    "00001": "latte",
+    "20001": "saute",
+    "10011": "waste",
+    "00101": "haute",
+    "10001": {
+      "guess": "tupek",
+      "10010": "baste",
+      "20010": "taste",
+      "10110": "paste"
+    },
+    "10101": "haste"
+  },
+  "00221": {
+    "guess": "death",
+    "02222": "heath",
+    "22222": "death",
+    "02220": "meaty"
+  },
+  "00121": {
+    "guess": "delta",
+    "01022": "theta",
+    "22222": "delta"
+  },
+  "00220": "swath",
+  "00212": {
+    "guess": "kevel",
+    "01100": "stave",
+    "01000": "stage",
+    "02010": "tease",
+    "11000": "stake",
+    "01001": "stale"
+  },
+  "01120": "quota",
+  "00020": {
+    "guess": "hinds",
+    "12010": "width",
+    "02000": {
+      "guess": "kotow",
+      "20200": "kitty",
+      "00200": "bitty",
+      "00100": "fifty",
+      "00201": "witty"
+    },
+    "00011": "dusty",
+    "02010": "ditty",
+    "01100": "unity",
+    "00000": "putty",
+    "11001": "smith",
+    "12200": "ninth",
+    "02200": "minty",
+    "12001": "sixth",
+    "12000": {
+      "guess": "fifth",
+      "22022": "filth",
+      "22222": "fifth"
+    },
+    "00100": "nutty",
+    "02001": "sixty",
+    "00001": {
+      "guess": "glade",
+      "20000": "gusty",
+      "01000": "lusty",
+      "00000": "musty"
+    },
+    "01000": "blitz"
+  },
+  "01000": {
+    "guess": "swoln",
+    "22202": "swoon",
+    "20102": "scion",
+    "01200": "whoop",
+    "00210": {
+      "guess": "crumb",
+      "00100": "ghoul",
+      "00010": "gloom",
+      "10000": "flock",
+      "00001": "blood",
+      "20100": "cloud",
+      "00011": "bloom",
+      "10001": "block",
+      "20000": "clock",
+      "00000": "flood"
+    },
+    "00112": "nylon",
+    "01212": {
+      "guess": "fetch",
+      "00000": "blown",
+      "20000": "flown",
+      "00010": "clown"
+    },
+    "20210": {
+      "guess": "spoil",
+      "22222": "spoil",
+      "20201": "slosh",
+      "21201": "sloop",
+      "22202": "spool"
+    },
+    "00211": "blond",
+    "10102": "bison",
+    "20201": "snoop",
+    "00120": "oddly",
+    "21201": "snowy",
+    "20200": {
+      "guess": "chook",
+      "00220": "spoof",
+      "10220": "scoop",
+      "10202": "smock",
+      "02222": "shook",
+      "00222": "spook",
+      "00201": "smoky",
+      "12202": "shock",
+      "10200": "scoff"
+    },
+    "00201": {
+      "guess": "knock",
+      "22222": "knock",
+      "01200": "phony"
+    },
+    "00100": {
+      "guess": "jumbo",
+      "00002": "hippo",
+      "02111": "buxom",
+      "02222": "gumbo",
+      "01101": "opium",
+      "22222": "jumbo",
+      "00101": "idiom"
+    },
+    "21200": "showy",
+    "01202": "known",
+    "00111": "lingo",
+    "20220": "scold",
+    "21210": "scowl",
+    "00221": "knoll",
+    "10100": "disco",
+    "20202": "spoon",
+    "10210": {
+      "guess": "floss",
+      "22222": "floss",
+      "02222": "gloss"
+    },
+    "10200": "kiosk",
+    "00101": {
+      "guess": "dingo",
+      "22222": "dingo",
+      "01101": "inbox",
+      "02222": "bingo"
+    },
+    "22200": "swoop",
+    "00110": {
+      "guess": "igloo",
+      "10102": "limbo",
+      "22222": "igloo"
+    },
+    "02101": "owing",
+    "01100": "widow",
+    "21202": "shown",
+    "00102": {
+      "guess": "onion",
+      "02222": "union",
+      "22222": "onion"
+    },
+    "00200": {
+      "guess": "ovoid",
+      "22222": "ovoid",
+      "00200": "chock"
+    },
+    "20101": "synod"
+  },
+  "20211": "react",
+  "10021": "berth",
+  "22002": {
+    "guess": "rouse",
+    "22102": "rogue",
+    "22202": "rouge",
+    "22222": "rouse"
+  },
+  "11002": {
+    "guess": "pands",
+    "00001": {
+      "guess": "wacks",
+      "00101": "score",
+      "00001": "shore",
+      "10001": "swore"
+    },
+    "20001": "prose",
+    "20000": {
+      "guess": "probe",
+      "22222": "probe",
+      "22202": "prove"
+    },
+    "00010": "drove",
+    "10001": "spore",
+    "00020": "erode",
+    "10000": "grope",
+    "00100": "crone",
+    "20100": "prone",
+    "00110": "drone",
+    "00000": {
+      "guess": "cobza",
+      "01200": "ombre",
+      "01100": "broke",
+      "01000": "grove",
+      "01020": "froze",
+      "21000": "chore"
+    },
+    "00101": "snore"
+  },
+  "01021": "pesto",
+  "02100": {
+    "guess": "dolma",
+    "22022": "dogma",
+    "02101": {
+      "guess": "local",
+      "22222": "local",
+      "02022": "zonal",
+      "02222": {
+        "guess": "vocal",
+        "22222": "vocal",
+        "02222": "focal"
+      },
+      "22022": "loyal"
+    },
+    "02012": "mocha",
+    "12011": "nomad",
+    "02202": "polka",
+    "12001": "gonad",
+    "02022": "comma",
+    "12111": "modal",
+    "02102": "voila",
+    "12002": "vodka",
+    "02011": "woman",
+    "02002": "cocoa"
+  },
+  "21000": {
+    "guess": "rigor",
+    "20022": "rumor",
+    "22222": "rigor",
+    "21010": "rhino"
+  },
+  "10012": {
+    "guess": "bices",
+    "01110": "trice",
+    "00011": "terse",
+    "00110": "truce",
+    "11010": "tribe",
+    "00010": "there",
+    "01010": "tripe",
+    "00020": "three"
+  },
+  "10010": {
+    "guess": "scuft",
+    "01201": "truck",
+    "00002": "print",
+    "20001": "strip",
+    "11202": "crust",
+    "01002": "crypt",
+    "00202": {
+      "guess": "grunt",
+      "02222": "brunt",
+      "01202": "blurt",
+      "22222": "grunt"
+    },
+    "10102": "burst",
+    "00201": {
+      "guess": "ulpan",
+      "10001": "trunk",
+      "10100": "trump",
+      "11000": "truly"
+    },
+    "00012": "flirt",
+    "00102": "burnt",
+    "20202": "spurt",
+    "10201": "truss",
+    "00101": "thrum",
+    "00212": "fruit",
+    "20002": {
+      "guess": "skirt",
+      "22222": "skirt",
+      "20222": "shirt"
+    },
+    "10002": {
+      "guess": "tryst",
+      "02022": "wrist",
+      "22222": "tryst"
+    },
+    "01001": "trick",
+    "10202": "trust",
+    "00001": {
+      "guess": "third",
+      "22222": "third",
+      "20220": "twirl"
+    },
+    "10012": "first",
+    "20102": "strut",
+    "00022": "drift"
+  },
+  "11200": {
+    "guess": "bravo",
+    "22222": "bravo",
+    "01211": "ovary"
+  },
+  "12200": {
+    "guess": "board",
+    "02222": "hoard",
+    "22222": "board"
+  },
+  "02011": {
+    "guess": "mulch",
+    "00010": "covet",
+    "10000": "totem",
+    "00101": "hotel",
+    "00000": "token",
+    "00100": "towel",
+    "20100": "motel",
+    "10010": "comet"
+  },
+  "20011": {
+    "guess": "ficus",
+    "02000": "rivet",
+    "00000": "retry",
+    "00100": "retch",
+    "00020": "rebut",
+    "01000": "remit",
+    "00001": "reset",
+    "11000": "refit",
+    "00220": "recut"
+  },
+  "02020": {
+    "guess": "shoyu",
+    "00100": "motto",
+    "01111": "youth",
+    "00110": "lofty",
+    "01101": "mouth",
+    "21200": "sooth",
+    "00111": "pouty",
+    "00210": "booty",
+    "20210": "sooty",
+    "21101": "south",
+    "01200": {
+      "guess": "booth",
+      "22222": "booth",
+      "02222": "tooth"
+    },
+    "01100": "month"
+  },
+  "10210": {
+    "guess": "split",
+    "00021": "train",
+    "20021": "stair",
+    "00002": {
+      "guess": "dunch",
+      "02000": "quart",
+      "00011": "chart",
+      "00100": "grant",
+      "00020": "tract",
+      "00000": "graft",
+      "20000": "draft",
+      "00010": "craft"
+    },
+    "00022": "trait",
+    "00101": "trawl",
+    "02002": "apart",
+    "01001": "tramp",
+    "00011": "tiara",
+    "00001": "track",
+    "20002": {
+      "guess": "smart",
+      "20222": "start",
+      "22222": "smart"
+    },
+    "20001": "stark",
+    "10001": "trash",
+    "00121": "trail"
+  },
+  "22010": {
+    "guess": "roost",
+    "22102": "robot",
+    "22101": "rotor",
+    "22222": "roost"
+  },
+  "20000": {
+    "guess": "ruddy",
+    "22002": "rugby",
+    "20100": "rigid",
+    "20002": "risky",
+    "22222": "ruddy"
+  },
+  "22001": {
+    "guess": "wadge",
+    "00011": "roger",
+    "00001": "rover",
+    "10001": "rower",
+    "00201": "rodeo"
+  },
+  "00112": {
+    "guess": "table",
+    "12012": "lathe",
+    "22222": "table",
+    "12102": "bathe"
+  },
+  "01102": {
+    "guess": "adown",
+    "20210": "awoke",
+    "10101": "canoe",
+    "20201": "alone",
+    "20200": "above",
+    "21200": "abode",
+    "22200": "adobe",
+    "21201": "anode"
+  },
+  "12002": {
+    "guess": "gnash",
+    "00001": "horde",
+    "00000": "force",
+    "20000": "gorge",
+    "00021": "horse",
+    "10000": "forge",
+    "00020": "worse",
+    "01000": "borne"
+  },
+  "02110": {
+    "guess": "ulpan",
+    "00220": "topaz",
+    "00020": "today",
+    "00011": "tonga",
+    "01021": "tonal",
+    "01020": "total"
+  },
+  "01011": {
+    "guess": "fetor",
+    "01220": "extol",
+    "01120": "ethos",
+    "01210": "octet",
+    "02220": "detox",
+    "01110": "onset",
+    "02110": "tempo",
+    "02120": "depot",
+    "11210": "often"
+  },
+  "02000": {
+    "guess": "lindy",
+    "00000": {
+      "guess": "pouch",
+      "22022": "pooch",
+      "02212": "cough",
+      "02000": "bosom",
+      "22222": "pouch",
+      "02222": {
+        "guess": "vouch",
+        "22222": "vouch",
+        "02222": "couch"
+      },
+      "02110": "focus",
+      "02202": "bough"
+    },
+    "21100": "login",
+    "21000": "logic",
+    "01000": "comic",
+    "00022": {
+      "guess": "whang",
+      "20000": "woody",
+      "00001": "goody",
+      "00000": "moody",
+      "10000": "dowdy",
+      "11000": "howdy"
+    },
+    "10100": "colon",
+    "10012": {
+      "guess": "dolly",
+      "12022": "godly",
+      "22222": "dolly"
+    },
+    "00002": {
+      "guess": "flobs",
+      "20100": "foggy",
+      "10100": "comfy",
+      "00120": {
+        "guess": "bobby",
+        "22222": "bobby",
+        "02222": "hobby"
+      },
+      "00100": "poppy",
+      "00200": "woozy",
+      "00220": "booby",
+      "00111": "bossy",
+      "00210": "boozy",
+      "10200": "goofy",
+      "00101": {
+        "guess": "soggy",
+        "12002": "mossy",
+        "22222": "soggy"
+      }
+    },
+    "01110": "doing",
+    "01200": {
+      "guess": "coals",
+      "12000": "ionic",
+      "12001": "sonic",
+      "22000": "conic"
+    },
+    "10010": {
+      "guess": "would",
+      "02222": "could",
+      "22222": "would"
+    },
+    "01100": "going",
+    "00012": "dodgy",
+    "11010": "solid",
+    "20000": "locus",
+    "10001": "polyp",
+    "00101": "young",
+    "10002": {
+      "guess": "choof",
+      "00210": "wooly",
+      "00100": {
+        "guess": "golly",
+        "02222": "jolly",
+        "22222": "golly"
+      },
+      "20100": "coyly",
+      "01100": "holly",
+      "00101": "folly"
+    },
+    "10000": "mogul",
+    "00112": "downy",
+    "00200": {
+      "guess": "bongo",
+      "22222": "bongo",
+      "02200": "conch",
+      "22200": "bonus"
+    },
+    "10102": "nobly",
+    "01102": "noisy",
+    "10022": "moldy",
+    "00220": "condo",
+    "11000": "folio",
+    "00110": {
+      "guess": "wombs",
+      "22000": "wound",
+      "02100": "mound",
+      "02000": {
+        "guess": "qophs",
+        "02100": "pound",
+        "02010": "hound",
+        "02000": "found"
+      },
+      "02010": "bound",
+      "02001": "sound"
+    },
+    "00010": "dough",
+    "20002": {
+      "guess": "tuple",
+      "00020": "lowly",
+      "00110": "loopy",
+      "00010": "lobby",
+      "01010": "lousy"
+    }
+  },
+  "01200": {
+    "guess": "chaos",
+    "22222": "chaos",
+    "00210": "piano"
+  },
+  "11102": {
+    "guess": "adore",
+    "22222": "adore",
+    "20212": "arose"
+  },
+  "02200": {
+    "guess": "loamy",
+    "12200": "koala",
+    "02222": "foamy",
+    "02200": "coach",
+    "02202": "soapy",
+    "22222": "loamy"
+  },
+  "00222": {
+    "guess": "spelk",
+    "00110": "elate",
+    "20101": "skate",
+    "01110": "plate",
+    "00100": {
+      "guess": "agate",
+      "22222": "agate",
+      "20222": "abate"
+    },
+    "20110": "slate",
+    "20100": "state"
+  },
+  "12001": {
+    "guess": "plows",
+    "00101": "sober",
+    "00111": "sower",
+    "01100": "lover",
+    "00110": {
+      "guess": "mower",
+      "22222": "mower",
+      "02222": "cower"
+    },
+    "00100": {
+      "guess": "vichy",
+      "10100": "cover",
+      "00010": "homer",
+      "10010": "hover",
+      "00100": "corer",
+      "10000": "mover",
+      "00001": "foyer",
+      "00000": {
+        "guess": "bogus",
+        "02000": "joker",
+        "02100": "goner",
+        "22000": "boxer"
+      }
+    },
+    "01101": "loser",
+    "01110": "lower",
+    "00210": "wooer",
+    "20100": "poker",
+    "20101": "poser",
+    "20110": "power"
+  },
+  "11020": {
+    "guess": "broth",
+    "22222": "broth",
+    "02222": "froth"
+  },
+  "00110": {
+    "guess": "cunit",
+    "00011": {
+      "guess": "vital",
+      "02122": "tidal",
+      "22222": "vital"
+    },
+    "00201": "tangy",
+    "01002": {
+      "guess": "vault",
+      "02102": "gamut",
+      "22222": "vault",
+      "01202": "squat",
+      "01222": "adult",
+      "02222": "fault"
+    },
+    "00121": "satin",
+    "02022": "audit",
+    "02001": "tubal",
+    "00101": {
+      "guess": "tawny",
+      "22222": "tawny",
+      "12010": "natal"
+    },
+    "01001": "datum",
+    "00112": {
+      "guess": "puffs",
+      "20000": "paint",
+      "00000": "taint",
+      "00100": "faint",
+      "00001": "saint"
+    },
+    "00022": {
+      "guess": "admit",
+      "10022": "habit",
+      "22222": "admit"
+    },
+    "00001": {
+      "guess": "fatal",
+      "02200": "patsy",
+      "01201": "aptly",
+      "22222": "fatal",
+      "02101": "tally",
+      "12100": "taffy",
+      "02100": "tabby"
+    },
+    "21002": "caput",
+    "00002": "splat",
+    "10002": "yacht",
+    "20001": "catch",
+    "00021": "tibia",
+    "10021": "attic",
+    "00111": "titan",
+    "00102": "angst",
+    "10022": "tacit",
+    "01102": {
+      "guess": "thing",
+      "10020": {
+        "guess": "yrivd",
+        "00010": "vaunt",
+        "00001": "daunt",
+        "00000": "jaunt"
+      },
+      "10021": "gaunt",
+      "20020": "taunt",
+      "11020": "haunt"
+    },
+    "10121": "antic",
+    "10001": {
+      "guess": "womby",
+      "00010": "batch",
+      "00100": "match",
+      "20000": "watch",
+      "00000": {
+        "guess": "ulpan",
+        "00010": "hatch",
+        "01010": "latch",
+        "00110": "patch"
+      },
+      "00002": "tacky"
+    },
+    "00012": "waist"
+  },
+  "01101": {
+    "guess": "ocean",
+    "22222": "ocean",
+    "20210": "omega",
+    "11110": "cameo",
+    "20112": "oaken"
+  },
+  "21110": "ratio",
+  "00002": {
+    "guess": "sling",
+    "20220": {
+      "guess": "qophs",
+      "00001": "swine",
+      "00011": "shine",
+      "00101": "spine"
+    },
+    "20020": "scene",
+    "00110": {
+      "guess": "wince",
+      "02112": "niche",
+      "02222": "mince",
+      "22222": "wince",
+      "02122": "niece"
+    },
+    "21200": "smile",
+    "01011": "lunge",
+    "01010": "uncle",
+    "00210": "knife",
+    "20111": "singe",
+    "00020": "penne",
+    "20110": "since",
+    "00220": "whine",
+    "00011": "nudge",
+    "10010": {
+      "guess": "ensue",
+      "11102": "dense",
+      "22222": "ensue"
+    },
+    "00101": "midge",
+    "20210": {
+      "guess": "snide",
+      "22222": "snide",
+      "22202": "snipe"
+    },
+    "00010": {
+      "guess": "fetch",
+      "01000": "undue",
+      "01020": "dunce",
+      "02021": "hence",
+      "02000": "venue",
+      "02020": "pence",
+      "22020": "fence"
+    },
+    "02000": {
+      "guess": "flume",
+      "02222": "plume",
+      "02202": "elude",
+      "22202": "fluke",
+      "22222": "flume"
+    },
+    "01101": {
+      "guess": "liege",
+      "12022": "bilge",
+      "22222": "liege"
+    },
+    "00200": {
+      "guess": "chime",
+      "22222": "chime",
+      "22202": "chide",
+      "10202": "juice"
+    },
+    "00201": "guide",
+    "00000": {
+      "guess": "emcee",
+      "10002": "queue",
+      "11002": "femme",
+      "22222": "emcee",
+      "10102": "deuce"
+    },
+    "01200": {
+      "guess": "while",
+      "22222": "while",
+      "00222": "exile"
+    },
+    "10100": "issue",
+    "20001": "segue",
+    "10001": "geese",
+    "00001": {
+      "guess": "awful",
+      "01000": "wedge",
+      "00010": {
+        "guess": "budge",
+        "22222": "budge",
+        "02222": "judge"
+      },
+      "00000": "hedge",
+      "00110": "fudge",
+      "00120": "fugue"
+    },
+    "20010": "sense",
+    "01001": {
+      "guess": "bugle",
+      "22112": "bulge",
+      "00112": "ledge",
+      "22222": "bugle"
+    },
+    "00100": {
+      "guess": "remex",
+      "01100": "imbue",
+      "01010": "piece",
+      "01001": "pixie",
+      "01000": "pique"
+    },
+    "02201": "glide",
+    "22200": {
+      "guess": "dumpy",
+      "00100": "slime",
+      "00000": "slice",
+      "10000": "slide"
+    },
+    "01100": {
+      "guess": "belie",
+      "20112": "bible",
+      "22222": "belie"
+    },
+    "01201": "guile",
+    "02200": "elide",
+    "10201": "guise",
+    "00111": {
+      "guess": "binge",
+      "22222": "binge",
+      "01212": "genie",
+      "02222": "hinge"
+    },
+    "20101": "siege",
+    "01000": {
+      "guess": "dumpy",
+      "00001": "cycle",
+      "20000": "delve",
+      "00000": "belle",
+      "00100": "melee"
+    },
+    "11000": "pulse",
+    "20200": {
+      "guess": "spice",
+      "22202": "spike",
+      "20202": "seize",
+      "22222": "spice"
+    },
+    "20100": "sieve"
+  },
+  "12020": {
+    "guess": "shown",
+    "01100": "forth",
+    "00100": "forty",
+    "01101": "north",
+    "01110": "worth"
+  },
+  "01222": "ovate",
+  "11001": {
+    "guess": "urned",
+    "02021": "order",
+    "01020": "offer",
+    "01021": {
+      "guess": "odder",
+      "20222": "older",
+      "22222": "odder"
+    },
+    "02010": "error",
+    "02011": "credo",
+    "01220": "owner",
+    "01010": "verso",
+    "01011": "decor",
+    "01110": "heron"
+  },
+  "20102": {
+    "guess": "raise",
+    "22222": "raise",
+    "22002": "range"
+  },
+  "10121": "earth",
+  "12011": {
+    "guess": "voter",
+    "22222": "voter",
+    "02122": "tower"
+  },
+  "10020": {
+    "guess": "dimbo",
+    "02000": "girth",
+    "02010": "birth",
+    "00000": "truth",
+    "02100": "mirth",
+    "01000": "fritz",
+    "22000": "dirty"
+  },
+  "11010": {
+    "guess": "snoot",
+    "22202": "snort",
+    "00201": "troll",
+    "00102": "orbit",
+    "01201": "thorn",
+    "02101": "intro",
+    "20202": {
+      "guess": "short",
+      "22222": "short",
+      "20222": "sport"
+    },
+    "10202": "frost",
+    "01202": "front",
+    "00101": {
+      "guess": "wombs",
+      "11000": "throw",
+      "01000": "tutor",
+      "01010": "throb",
+      "01200": "tumor",
+      "01020": "turbo"
+    },
+    "00202": {
+      "guess": "trout",
+      "22222": "trout",
+      "02202": "droit",
+      "02222": "grout"
+    },
+    "00221": "troop",
+    "20201": {
+      "guess": "moggy",
+      "01002": "story",
+      "11000": "storm",
+      "01000": "stork"
+    },
+    "00021": {
+      "guess": "wombs",
+      "11000": "throw",
+      "01010": "throb",
+      "01000": "tutor",
+      "01200": "tumor"
+    }
+  },
+  "10201": {
+    "guess": "nobly",
+    "00010": "pearl",
+    "00000": "heard",
+    "00100": "beard",
+    "10001": "yearn",
+    "10010": "learn",
+    "00002": "weary"
+  },
+  "00012": {
+    "guess": "duels",
+    "00121": "style",
+    "01100": "untie",
+    "00101": "tense",
+    "01120": "utile",
+    "00110": "lithe",
+    "02100": "cutie",
+    "00120": "title",
+    "00200": "theme",
+    "02120": "tulle",
+    "11100": "etude",
+    "10110": "tilde",
+    "00100": {
+      "guess": "nippy",
+      "02000": "tithe",
+      "11000": "twine",
+      "00200": "tepee",
+      "01000": "twice",
+      "00001": "thyme"
+    },
+    "00201": "these"
+  },
+  "00102": {
+    "guess": "mulsh",
+    "01200": "value",
+    "20100": "maple",
+    "01000": {
+      "guess": "gauge",
+      "22222": "gauge",
+      "12102": "vague",
+      "22202": "gauze"
+    },
+    "00201": "halve",
+    "10100": {
+      "guess": "ample",
+      "22022": "amble",
+      "22222": "ample"
+    },
+    "01020": {
+      "guess": "pause",
+      "02222": "cause",
+      "01222": "abuse",
+      "22222": "pause"
+    },
+    "00200": "valve",
+    "00001": "cache",
+    "00120": "lapse",
+    "00220": "false",
+    "20020": "masse",
+    "00100": {
+      "guess": "kaing",
+      "02000": {
+        "guess": "cable",
+        "22222": "cable",
+        "02222": "fable",
+        "02022": "ladle"
+      },
+      "01000": "apple",
+      "01200": "alive",
+      "02001": "eagle",
+      "01011": "angle",
+      "01201": "agile",
+      "01001": "algae",
+      "11200": "alike",
+      "02010": "lance",
+      "11010": "ankle"
+    },
+    "00110": "aisle",
+    "11020": "amuse",
+    "00000": {
+      "guess": "fagin",
+      "02000": "payee",
+      "01010": "abide",
+      "02001": "dance",
+      "02100": "badge",
+      "12100": "gaffe",
+      "02011": "naive",
+      "02010": "waive"
+    },
+    "01010": "sauce",
+    "20000": {
+      "guess": "bogus",
+      "10000": "maybe",
+      "00000": "maize",
+      "00100": "mange"
+    },
+    "00010": "aside",
+    "00210": "salve",
+    "21000": "mauve",
+    "10000": "anime"
+  },
+  "02001": {
+    "guess": "dynel",
+    "10022": "model",
+    "20022": "dowel",
+    "01010": "poesy",
+    "00021": "golem",
+    "10020": "modem",
+    "01220": {
+      "guess": "timbo",
+      "00101": "money",
+      "00011": "boney",
+      "00001": "honey"
+    },
+    "21020": "dopey",
+    "01020": {
+      "guess": "gooey",
+      "02022": "covey",
+      "22222": "gooey"
+    },
+    "20120": "dozen",
+    "00122": "novel",
+    "01120": "nosey",
+    "00120": {
+      "guess": "smack",
+      "00010": "coven",
+      "01000": "women",
+      "00000": "woven",
+      "00001": "woken"
+    },
+    "00022": {
+      "guess": "vowel",
+      "22222": "vowel",
+      "02222": "bowel",
+      "12022": "hovel"
+    }
+  },
+  "10011": {
+    "guess": "imbed",
+    "00220": "tuber",
+    "11010": "merit",
+    "20020": "inter",
+    "01020": "meter",
+    "00010": {
+      "guess": "crest",
+      "12202": "erect",
+      "01101": "entry",
+      "02102": "erupt",
+      "02222": "wrest",
+      "01202": "exert",
+      "22202": "crept",
+      "01211": "stern",
+      "22222": "crest"
+    },
+    "10022": "tried",
+    "10010": "their",
+    "00021": "deter",
+    "10020": "tiger",
+    "11020": "timer",
+    "00020": {
+      "guess": "ester",
+      "11122": "steer",
+      "22222": "ester",
+      "20222": "enter",
+      "00122": "truer",
+      "20122": "ether",
+      "20121": "egret",
+      "00121": "threw",
+      "00222": "utter",
+      "10121": {
+        "guess": "threw",
+        "22222": "threw",
+        "10120": "greet"
+      }
+    },
+    "00120": "beret",
+    "20010": "inert",
+    "00012": "trend"
+  },
+  "20002": {
+    "guess": "eughs",
+    "11001": "reuse",
+    "12000": "rupee",
+    "10100": "ridge",
+    "10001": "rinse",
+    "11000": "revue",
+    "10000": "rifle",
+    "10010": "rhyme"
+  },
+  "10022": {
+    "guess": "trite",
+    "22222": "trite",
+    "02022": "brute",
+    "02222": "write"
+  },
+  "22000": {
+    "guess": "dumpy",
+    "00102": "roomy",
+    "00000": "robin",
+    "11000": "round",
+    "00002": "rocky",
+    "10002": "rowdy",
+    "01000": "rough"
+  },
+  "01020": {
+    "guess": "dunch",
+    "00200": "pinto",
+    "02002": "quoth",
+    "00001": "photo",
+    "02200": "junto",
+    "00012": "cloth",
+    "00002": "sloth",
+    "02000": "gusto",
+    "20000": "ditto"
+  },
+  "00100": {
+    "guess": "bliny",
+    "10001": "abyss",
+    "00001": "kayak",
+    "00200": "amiss",
+    "00020": {
+      "guess": "fauna",
+      "22222": "fauna",
+      "02222": "sauna"
+    },
+    "21002": {
+      "guess": "badly",
+      "22222": "badly",
+      "22012": "balmy"
+    },
+    "01200": "axial",
+    "00022": {
+      "guess": "fetch",
+      "00010": "canny",
+      "00000": "nanny",
+      "20000": "fanny"
+    },
+    "02200": "iliac",
+    "12000": "album",
+    "11000": "cabal",
+    "02000": "alpha",
+    "21000": "basal",
+    "00100": {
+      "guess": "panga",
+      "11000": "aphid",
+      "00012": "sigma",
+      "20002": "pizza",
+      "02002": "mafia",
+      "01000": "affix",
+      "12000": "vapid",
+      "02000": "maxim",
+      "02010": "magic"
+    },
+    "20002": {
+      "guess": "baggy",
+      "22222": "baggy",
+      "22002": "bawdy"
+    },
+    "01110": {
+      "guess": "anvil",
+      "11012": "final",
+      "22222": "anvil"
+    },
+    "02210": "align",
+    "01000": {
+      "guess": "paska",
+      "02101": "salad",
+      "02102": "salsa",
+      "02010": "caulk",
+      "22001": "papal",
+      "01000": "awful",
+      "02000": "laugh",
+      "01100": "usual",
+      "21000": "pupal"
+    },
+    "01002": {
+      "guess": "dumps",
+      "00110": "amply",
+      "00001": "sally",
+      "00010": "apply",
+      "10001": "sadly",
+      "10100": "madly",
+      "20000": "dally",
+      "00011": "palsy",
+      "00000": "gayly"
+    },
+    "01202": {
+      "guess": "gaily",
+      "22222": "gaily",
+      "02222": "daily"
+    },
+    "20100": {
+      "guess": "basis",
+      "22220": "basic",
+      "22222": "basis"
+    },
+    "01012": {
+      "guess": "lanky",
+      "22222": "lanky",
+      "12202": "manly"
+    },
+    "10110": "cabin",
+    "20110": "basin",
+    "01100": {
+      "guess": "valid",
+      "22222": "valid",
+      "12120": "cavil",
+      "21210": "villa",
+      "01210": "lilac"
+    },
+    "21010": "banal",
+    "01010": {
+      "guess": "nasal",
+      "22222": "nasal",
+      "22022": "naval",
+      "11002": "annul",
+      "12022": "canal"
+    },
+    "21001": "bylaw",
+    "10000": "scuba",
+    "00202": "daisy",
+    "00000": {
+      "guess": "gamma",
+      "02111": "madam",
+      "01000": "squad",
+      "02222": "mamma",
+      "22222": "gamma",
+      "12122": "magma",
+      "01200": "sumac",
+      "02101": "macaw",
+      "02002": "kappa"
+    },
+    "01112": "inlay",
+    "00002": {
+      "guess": "dumps",
+      "00001": {
+        "guess": "gassy",
+        "01212": "assay",
+        "02222": "sassy",
+        "22222": "gassy",
+        "02102": "savvy"
+      },
+      "00020": "happy",
+      "00021": "sappy",
+      "00200": "mammy",
+      "00000": {
+        "guess": "wacky",
+        "22222": "wacky",
+        "02002": "jazzy",
+        "12022": "gawky"
+      },
+      "20000": "daddy",
+      "10000": "caddy",
+      "10010": "paddy",
+      "11000": "gaudy",
+      "01001": "saucy"
+    },
+    "10002": "cabby",
+    "02002": "allay",
+    "21100": "basil",
+    "00220": {
+      "guess": "aging",
+      "10220": "china",
+      "20222": "aping",
+      "22222": "aging"
+    },
+    "00210": "avian",
+    "00010": {
+      "guess": "manga",
+      "22222": "manga",
+      "02111": "pagan",
+      "11100": "human"
+    },
+    "00012": {
+      "guess": "decos",
+      "00000": "mangy",
+      "20000": "dandy",
+      "00100": "fancy",
+      "10001": "sandy",
+      "00001": "pansy",
+      "10000": "handy",
+      "10100": "candy"
+    },
+    "00110": {
+      "guess": "panic",
+      "01120": "admin",
+      "01210": "ninja",
+      "02222": "manic",
+      "22222": "panic",
+      "02220": "mania"
+    },
+    "12200": "alibi"
+  },
+  "00111": {
+    "guess": "clept",
+    "20102": "cadet",
+    "02212": "pleat",
+    "01101": {
+      "guess": "fetal",
+      "22222": "fetal",
+      "02222": "metal"
+    },
+    "10102": "facet",
+    "11102": "eclat",
+    "00202": {
+      "guess": "sweat",
+      "01222": "wheat",
+      "00212": "agent",
+      "22222": "sweat"
+    },
+    "00102": {
+      "guess": "asset",
+      "10012": "begat",
+      "22222": "asset"
+    },
+    "20202": "cheat",
+    "00222": "adept",
+    "01111": "petal",
+    "01201": "steal",
+    "01102": "valet",
+    "02202": "bleat",
+    "00101": {
+      "guess": "eaten",
+      "02220": "matey",
+      "02122": "taken",
+      "22222": "eaten"
+    },
+    "00201": {
+      "guess": "timid",
+      "10000": "steak",
+      "10002": "stead",
+      "10100": "steam",
+      "20000": "tweak"
+    },
+    "22202": "cleat"
+  },
+  "10220": "wrath",
+  "01002": {
+    "guess": "clons",
+    "01200": "whole",
+    "02201": "slope",
+    "22220": "clone",
+    "10221": "scone",
+    "00200": {
+      "guess": "diode",
+      "00202": "evoke",
+      "02202": "biome",
+      "22222": "diode"
+    },
+    "22200": "clove",
+    "00210": "gnome",
+    "00120": {
+      "guess": "opine",
+      "20222": "ovine",
+      "22222": "opine"
+    },
+    "00220": {
+      "guess": "phone",
+      "22222": "phone",
+      "00222": "ozone"
+    },
+    "00221": "shone",
+    "20201": "chose",
+    "00100": "oxide",
+    "02100": "olive",
+    "02200": {
+      "guess": "globe",
+      "22222": "globe",
+      "02212": "bloke",
+      "02202": "elope",
+      "22202": "glove"
+    },
+    "10110": "ounce",
+    "00201": {
+      "guess": "spoke",
+      "22222": "spoke",
+      "20202": "shove",
+      "10202": "whose",
+      "20222": "smoke"
+    },
+    "00101": "obese",
+    "20200": "choke",
+    "22201": "close",
+    "10201": "scope"
+  },
+  "11011": {
+    "guess": "outer",
+    "20111": "overt",
+    "10211": "metro",
+    "10112": "tenor",
+    "22222": "outer",
+    "20222": "otter",
+    "20122": "other"
+  },
+  "20101": {
+    "guess": "vinyl",
+    "00011": "relay",
+    "10100": "raven",
+    "00100": "ramen",
+    "00000": {
+      "guess": "racer",
+      "21210": "recap",
+      "21012": "rebar",
+      "22222": "racer",
+      "22022": "rarer",
+      "21010": "rehab"
+    },
+    "00202": "renal",
+    "00010": "repay",
+    "00002": "regal",
+    "00001": "relax"
+  },
+  "10001": {
+    "guess": "dices",
+    "12020": "wider",
+    "01020": {
+      "guess": "grief",
+      "01220": "plier",
+      "01121": "infer",
+      "02222": "brief",
+      "01120": "inner",
+      "01221": "flier",
+      "22222": "grief"
+    },
+    "01120": "crier",
+    "02021": {
+      "guess": "wiser",
+      "02121": "siren",
+      "02222": "miser",
+      "22222": "wiser"
+    },
+    "20012": "dress",
+    "00120": {
+      "guess": "creep",
+      "22222": "creep",
+      "21020": "cyber",
+      "22220": "creek",
+      "22020": "cruel",
+      "21220": "cheer"
+    },
+    "12120": "cider",
+    "00220": "ulcer",
+    "01021": "skier",
+    "00011": {
+      "guess": "sperm",
+      "10210": "fresh",
+      "22222": "sperm",
+      "20112": "serum"
+    },
+    "11010": "weird",
+    "02220": "nicer",
+    "00021": {
+      "guess": "wheep",
+      "12020": "shrew",
+      "00120": {
+        "guess": "sever",
+        "20022": "surer",
+        "22222": "sever"
+      },
+      "02220": "sheer",
+      "00020": "surer",
+      "00021": "super",
+      "10120": "sewer",
+      "00220": "sneer",
+      "01020": "usher"
+    },
+    "20020": {
+      "guess": "defer",
+      "20022": "dryer",
+      "22222": "defer"
+    },
+    "00012": "press",
+    "00121": "screw",
+    "20010": {
+      "guess": "demur",
+      "22222": "demur",
+      "22001": "derby"
+    },
+    "02010": "fiery",
+    "00010": {
+      "guess": "plumb",
+      "00000": {
+        "guess": "ferry",
+        "02202": "jerky",
+        "22222": "ferry",
+        "01022": "every"
+      },
+      "00001": "berry",
+      "20000": "perky",
+      "01000": "leery",
+      "01110": "lemur",
+      "00110": "femur",
+      "00100": "query",
+      "00010": "merry"
+    },
+    "11020": {
+      "guess": "pried",
+      "22222": "pried",
+      "02222": "fried",
+      "01121": "idler"
+    },
+    "00112": "cress",
+    "10020": {
+      "guess": "brung",
+      "22000": "breed",
+      "02000": "freed",
+      "01000": "elder",
+      "01100": "udder",
+      "01110": "under",
+      "02001": "greed"
+    },
+    "22020": {
+      "guess": "diner",
+      "22022": "diver",
+      "22222": "diner"
+    },
+    "10120": "creed",
+    "21020": {
+      "guess": "drier",
+      "22220": "dried",
+      "22222": "drier"
+    },
+    "00110": {
+      "guess": "mercy",
+      "01120": "wreck",
+      "01110": "clerk",
+      "22222": "mercy",
+      "02220": "perch"
+    },
+    "01010": "peril",
+    "11120": "cried",
+    "02020": {
+      "guess": "fling",
+      "00110": "miner",
+      "01100": "liver",
+      "00101": "giver",
+      "00100": {
+        "guess": "piper",
+        "02222": "viper",
+        "22222": "piper"
+      },
+      "20110": "finer",
+      "20100": {
+        "guess": "fiber",
+        "22022": "fixer",
+        "22222": "fiber"
+      },
+      "01110": "liner",
+      "21100": "filer"
+    },
+    "10010": "nerdy",
+    "20210": "decry",
+    "01011": "serif",
+    "00020": {
+      "guess": "plumb",
+      "00100": "queer",
+      "10100": "upper",
+      "00101": "buyer",
+      "02000": "flyer",
+      "01200": "gruel",
+      "10000": "hyper",
+      "00000": {
+        "guess": "fever",
+        "22022": "fewer",
+        "02222": "never",
+        "02022": "newer",
+        "01021": "green",
+        "21022": "freer",
+        "22222": "fever"
+      },
+      "01000": "lever",
+      "00011": "ember",
+      "02201": "bluer",
+      "11000": "leper",
+      "20100": "purer",
+      "20000": "preen"
+    }
+  },
+  "01112": "atone",
+  "10111": {
+    "guess": "artel",
+    "12110": {
+      "guess": "treat",
+      "22222": "treat",
+      "02222": "great",
+      "22220": "tread"
+    },
+    "11221": "later",
+    "21221": "alter",
+    "21220": "after",
+    "21111": "alert",
+    "11120": {
+      "guess": "remap",
+      "11210": "tamer",
+      "11011": "taper",
+      "11010": "taker"
+    },
+    "11220": {
+      "guess": "chows",
+      "00000": "eater",
+      "01000": "hater",
+      "20000": "cater",
+      "00010": "water"
+    },
+    "21110": "avert",
+    "11210": "extra",
+    "11110": "terra"
+  },
+  "00001": {
+    "guess": "lined",
+    "02121": "widen",
+    "10010": {
+      "guess": "hwyls",
+      "11020": "whelp",
+      "00120": {
+        "guess": "belly",
+        "02222": "jelly",
+        "22222": "belly"
+      },
+      "10010": "belch",
+      "00012": "bless",
+      "00010": "fleck",
+      "11011": "welsh",
+      "11010": "welch",
+      "02021": "swell",
+      "10021": {
+        "guess": "shelf",
+        "22220": "shell",
+        "22222": "shelf"
+      },
+      "00110": "elegy",
+      "00020": "quell",
+      "10011": "flesh",
+      "00021": {
+        "guess": "spell",
+        "22222": "spell",
+        "20222": "smell"
+      }
+    },
+    "11110": "elfin",
+    "10120": "kneel",
+    "02021": "dicey",
+    "00111": "needy",
+    "12012": {
+      "guess": "wacky",
+      "00001": "yield",
+      "00000": "field",
+      "20000": "wield"
+    },
+    "10112": "blend",
+    "00110": {
+      "guess": "enemy",
+      "11000": "begun",
+      "22222": "enemy"
+    },
+    "20020": "level",
+    "20120": "lumen",
+    "00120": {
+      "guess": "semen",
+      "01022": "queen",
+      "22222": "semen",
+      "00222": "hymen",
+      "21022": "sheen",
+      "22022": "seven"
+    },
+    "00210": {
+      "guess": "bench",
+      "22222": "bench",
+      "02200": "penny",
+      "02222": "wench"
+    },
+    "02120": {
+      "guess": "vixen",
+      "12022": "given",
+      "22222": "vixen"
+    },
+    "10020": {
+      "guess": "jeeps",
+      "22100": "jewel",
+      "01100": "excel",
+      "01201": "sleek",
+      "01200": "wheel",
+      "01210": "bleep",
+      "02100": {
+        "guess": "bevel",
+        "22222": "bevel",
+        "22022": "bezel"
+      },
+      "01110": "expel",
+      "01211": "sleep"
+    },
+    "02020": "bicep",
+    "01011": {
+      "guess": "edify",
+      "22222": "edify",
+      "11100": "medic"
+    },
+    "00010": {
+      "guess": "speck",
+      "00201": "geeky",
+      "00222": "check",
+      "10200": "guess",
+      "00220": "beech",
+      "10210": "chess",
+      "00200": "beefy",
+      "22222": "speck",
+      "11101": "pesky"
+    },
+    "10110": "newly",
+    "10022": {
+      "guess": "bleed",
+      "22222": "bleed",
+      "02022": "clued"
+    },
+    "22120": "liken",
+    "22020": "libel",
+    "01110": {
+      "guess": "eking",
+      "10111": "begin",
+      "10211": {
+        "guess": "neigh",
+        "22222": "neigh",
+        "12220": "feign"
+      },
+      "20222": "eying",
+      "22222": "eking",
+      "10222": "being"
+    },
+    "00112": "spend",
+    "22220": "linen",
+    "12020": "pixel",
+    "00122": {
+      "guess": "unwed",
+      "22222": "unwed",
+      "02022": "kneed",
+      "22022": "unfed"
+    },
+    "11010": "helix",
+    "02220": {
+      "guess": "piney",
+      "22222": "piney",
+      "02220": "sinew"
+    },
+    "01210": "ennui",
+    "11020": {
+      "guess": "spiel",
+      "01122": "impel",
+      "22222": "spiel"
+    },
+    "10011": "dwell",
+    "00022": {
+      "guess": "speed",
+      "00122": "embed",
+      "10022": "bused",
+      "22222": "speed"
+    },
+    "11011": "devil",
+    "20010": {
+      "guess": "leech",
+      "22000": "leggy",
+      "22222": "leech"
+    },
+    "01022": {
+      "guess": "spied",
+      "20222": "shied",
+      "22222": "spied"
+    },
+    "01020": "chief",
+    "01010": {
+      "guess": "sheik",
+      "00120": "equip",
+      "01110": "weigh",
+      "22222": "sheik"
+    },
+    "00020": {
+      "guess": "sweep",
+      "20222": "sheep",
+      "22222": "sweep",
+      "00220": "cheek"
+    },
+    "02112": "fiend",
+    "01121": "index",
+    "01111": "deign",
+    "11022": "plied",
+    "00011": {
+      "guess": "seedy",
+      "02010": "debug",
+      "22222": "seedy",
+      "02222": "weedy"
+    },
+    "01211": "denim"
+  },
+  "10212": {
+    "guess": "trace",
+    "22222": "trace",
+    "11202": "stare",
+    "22202": "trade"
+  },
+  "01010": {
+    "guess": "gulch",
+    "01000": {
+      "guess": "ulpan",
+      "10001": "snout",
+      "10100": "spout",
+      "10000": "stout"
+    },
+    "12001": "ought",
+    "12000": "outgo",
+    "01100": "flout",
+    "00000": {
+      "guess": "pivot",
+      "10011": "stomp",
+      "22222": "pivot",
+      "00021": "stood",
+      "01022": "idiot",
+      "00011": "stony",
+      "10021": "stoop"
+    },
+    "00010": {
+      "guess": "optic",
+      "22222": "optic",
+      "10122": "stoic"
+    },
+    "10000": {
+      "guess": "ingot",
+      "22222": "ingot",
+      "10222": "bigot"
+    },
+    "00200": "pilot",
+    "00001": "shoot",
+    "10001": "thong",
+    "00020": "stock",
+    "01010": "scout",
+    "01001": "shout",
+    "01110": "clout",
+    "02000": "outdo",
+    "20001": "ghost",
+    "00100": "stool"
+  },
+  "12022": "forte",
+  "11000": {
+    "guess": "cions",
+    "21200": "choir",
+    "00202": {
+      "guess": "dross",
+      "22222": "dross",
+      "02222": "gross"
+    },
+    "20220": "crony",
+    "01200": {
+      "guess": "ivory",
+      "22222": "ivory",
+      "10210": "broil"
+    },
+    "00220": {
+      "guess": "prong",
+      "02220": "frond",
+      "02222": "wrong",
+      "22222": "prong"
+    },
+    "20200": {
+      "guess": "dunch",
+      "10011": "chord",
+      "01010": "croup",
+      "10010": "crowd",
+      "00010": "crook",
+      "00020": "crock"
+    },
+    "12100": "micro",
+    "10211": "scorn",
+    "00210": {
+      "guess": "debug",
+      "00001": "grown",
+      "20000": "drown",
+      "00000": "frown",
+      "00100": "brown"
+    },
+    "10200": "frock",
+    "00200": {
+      "guess": "gloop",
+      "21200": "growl",
+      "00201": {
+        "guess": "proxy",
+        "22222": "proxy",
+        "22200": "proud"
+      },
+      "01201": "prowl",
+      "00222": "droop",
+      "20202": "group",
+      "00200": "fjord",
+      "02220": "floor",
+      "02200": "flour",
+      "22200": "glory",
+      "20220": "groom",
+      "01200": "droll",
+      "00221": "proof",
+      "00220": {
+        "guess": "dumpy",
+        "00000": "brook",
+        "10000": "brood",
+        "00100": "broom"
+      },
+      "01220": "drool"
+    },
+    "01220": "irony",
+    "20210": "crown",
+    "20202": "cross",
+    "01210": "groin",
+    "00211": {
+      "guess": "shorn",
+      "22222": "shorn",
+      "20222": "sworn"
+    },
+    "21100": "curio",
+    "02101": "visor",
+    "10100": "occur",
+    "02100": "vigor",
+    "00100": {
+      "guess": "juror",
+      "02022": "humor",
+      "00110": "hydro",
+      "02222": "furor",
+      "22222": "juror"
+    },
+    "00201": "sword",
+    "01100": {
+      "guess": "prior",
+      "22222": "prior",
+      "22210": "primo"
+    },
+    "10201": "scour",
+    "02110": "minor"
+  },
+  "10110": {
+    "guess": "spial",
+    "00021": "altar",
+    "00010": "tardy",
+    "00222": "trial",
+    "20020": {
+      "guess": "stray",
+      "22222": "stray",
+      "22220": "straw"
+    },
+    "00020": "carat",
+    "01110": "tapir",
+    "00220": "triad",
+    "20010": "satyr",
+    "10010": "artsy",
+    "21020": "strap",
+    "00011": "ultra"
+  },
+  "00101": {
+    "guess": "pedal",
+    "02222": "medal",
+    "22020": "pecan",
+    "01021": {
+      "guess": "glean",
+      "22222": "glean",
+      "02222": "clean",
+      "22220": "gleam",
+      "02220": "bleak"
+    },
+    "02011": "fella",
+    "21121": "plead",
+    "01022": "equal",
+    "22222": "pedal",
+    "02210": "media",
+    "01010": {
+      "guess": "ashen",
+      "10111": "hyena",
+      "10022": "waxen",
+      "10020": "cagey",
+      "20021": "annex",
+      "20020": "abbey",
+      "10122": "haven",
+      "22020": "askew",
+      "22222": "ashen",
+      "10011": "enema"
+    },
+    "12010": "sepia",
+    "01111": "abled",
+    "01110": "amend",
+    "11020": {
+      "guess": "cheap",
+      "00221": "speak",
+      "22222": "cheap"
+    },
+    "02010": "mecca",
+    "02020": {
+      "guess": "kebab",
+      "02020": "vegan",
+      "22222": "kebab",
+      "02120": "began"
+    },
+    "02121": "delay",
+    "02122": "decal",
+    "01120": {
+      "guess": "ahead",
+      "00222": "knead",
+      "22222": "ahead"
+    },
+    "01011": {
+      "guess": "alien",
+      "22020": "alley",
+      "22222": "alien"
+    },
+    "01211": "laden",
+    "02120": "decay",
+    "01020": {
+      "guess": "sneak",
+      "10120": "essay",
+      "22222": "sneak"
+    },
+    "01122": "ideal",
+    "01012": {
+      "guess": "gonch",
+      "20000": "gavel",
+      "00001": "hazel",
+      "00100": "navel",
+      "10100": "angel",
+      "10000": "bagel",
+      "00000": {
+        "guess": "easel",
+        "22222": "easel",
+        "02022": "label"
+      },
+      "00010": "camel"
+    },
+    "02220": "sedan",
+    "21012": "panel",
+    "11010": "apnea",
+    "22022": "penal",
+    "11012": "lapel",
+    "02022": {
+      "guess": "fecal",
+      "02022": "legal",
+      "22222": "fecal"
+    }
+  },
+  "00200": {
+    "guess": "shuln",
+    "00010": {
+      "guess": "blimp",
+      "02020": "llama",
+      "02022": "clamp",
+      "02101": "plaid",
+      "02000": {
+        "guess": "clack",
+        "02201": "flaky",
+        "22222": "clack",
+        "02222": "flack"
+      },
+      "02100": "flail",
+      "22000": "black",
+      "01100": "avail",
+      "02110": "claim",
+      "02001": "plaza"
+    },
+    "00002": "again",
+    "11010": {
+      "guess": "clash",
+      "22222": "clash",
+      "02222": "flash"
+    },
+    "11001": "gnash",
+    "20011": {
+      "guess": "snail",
+      "22222": "snail",
+      "21201": "slang"
+    },
+    "21010": "slash",
+    "02002": "chain",
+    "12000": "chasm",
+    "10020": "psalm",
+    "10100": "quasi",
+    "20020": {
+      "guess": "empty",
+      "02000": "small",
+      "00002": "scaly",
+      "00000": "scald",
+      "00100": "scalp"
+    },
+    "02020": "chalk",
+    "11000": "awash",
+    "22000": {
+      "guess": "shack",
+      "22201": "shaky",
+      "22200": "shady",
+      "22222": "shack"
+    },
+    "00100": {
+      "guess": "quack",
+      "22222": "quack",
+      "02200": "guava"
+    },
+    "20000": {
+      "guess": "scamp",
+      "20222": "swamp",
+      "20220": "swami",
+      "21210": "smack",
+      "22222": "scamp",
+      "20211": "spasm"
+    },
+    "00011": {
+      "guess": "black",
+      "02210": "clang",
+      "02202": {
+        "guess": "plank",
+        "02222": "flank",
+        "22222": "plank"
+      },
+      "22200": "bland",
+      "22202": "blank",
+      "02200": "gland",
+      "02212": "clank"
+    },
+    "10010": {
+      "guess": "class",
+      "02222": "glass",
+      "02220": "flask",
+      "22222": "class",
+      "22220": "clasp"
+    },
+    "00000": "aback",
+    "10000": "amass",
+    "00120": "qualm",
+    "11100": "quash",
+    "22020": "shall",
+    "21000": {
+      "guess": "smash",
+      "20222": "swash",
+      "22222": "smash"
+    },
+    "20001": {
+      "guess": "snack",
+      "22222": "snack",
+      "22201": "snaky",
+      "21202": "spank"
+    },
+    "22001": "shank",
+    "02000": {
+      "guess": "champ",
+      "12200": "whack",
+      "22200": "chaff",
+      "02200": "khaki",
+      "22222": "champ"
+    },
+    "20012": "slain",
+    "20002": "spawn",
+    "00001": "knack",
+    "00110": "quail",
+    "00012": "plain",
+    "20010": "slack",
+    "22010": "shawl"
+  },
+  "10222": {
+    "guess": "kiack",
+    "01200": "irate",
+    "00200": "grate",
+    "00210": "crate"
+  },
+  "20020": "rusty",
+  "10202": {
+    "guess": "brack",
+    "02210": {
+      "guess": "avant",
+      "00200": "craze",
+      "00220": "crane",
+      "01200": "crave"
+    },
+    "02201": "drake",
+    "22200": "brave",
+    "22201": "brake",
+    "02220": "grace",
+    "02200": {
+      "guess": "dumps",
+      "10000": "grade",
+      "00000": {
+        "guess": "graze",
+        "22222": "graze",
+        "22202": "grave"
+      },
+      "20020": "drape",
+      "00100": "frame",
+      "00020": "grape",
+      "00001": "erase"
+    },
+    "21200": "blare",
+    "22220": "brace",
+    "01210": "scare",
+    "01200": {
+      "guess": "ankhs",
+      "10000": {
+        "guess": "glare",
+        "02222": "flare",
+        "22222": "glare"
+      },
+      "20000": "aware",
+      "10011": "share",
+      "10001": "spare",
+      "12001": "snare"
+    }
+  },
+  "10102": {
+    "guess": "iglus",
+    "00010": "azure",
+    "01020": "argue",
+    "01100": "large",
+    "00001": "parse",
+    "02000": "agree",
+    "01000": "barge",
+    "10001": "arise",
+    "10000": "afire",
+    "00000": {
+      "guess": "farce",
+      "22222": "farce",
+      "02212": "carve"
+    }
+  },
+  "00210": {
+    "guess": "slink",
+    "20100": "staid",
+    "00120": "giant",
+    "02100": "plait",
+    "20022": "stank",
+    "20020": {
+      "guess": "scant",
+      "22222": "scant",
+      "20221": "stand"
+    },
+    "20110": "stain",
+    "20000": {
+      "guess": "shaft",
+      "21201": "stash",
+      "20221": "staff",
+      "22222": "shaft",
+      "20201": "stamp"
+    },
+    "22020": "slant",
+    "00000": "adapt",
+    "00100": "await",
+    "12000": "blast",
+    "21000": {
+      "guess": "stall",
+      "22222": "stall",
+      "21220": "shalt"
+    },
+    "00022": "thank",
+    "00020": {
+      "guess": "twang",
+      "10220": "chant",
+      "22222": "twang"
+    },
+    "20002": "stack",
+    "02020": "plant",
+    "21002": "stalk"
+  },
+  "02220": "loath",
+  "22100": "royal",
+  "21100": {
+    "guess": "razor",
+    "22010": "radio",
+    "22020": "rayon",
+    "22222": "razor"
+  },
+  "10101": {
+    "guess": "baled",
+    "11020": "amber",
+    "02220": "paler",
+    "01011": {
+      "guess": "cedar",
+      "01121": "dream",
+      "22222": "cedar"
+    },
+    "01020": "anger",
+    "01021": "aider",
+    "02020": {
+      "guess": "germy",
+      "01110": "maker",
+      "21110": "gamer",
+      "01100": {
+        "guess": "puffs",
+        "20000": "paper",
+        "00201": "safer",
+        "10000": "caper",
+        "00000": "waver",
+        "00001": "saner",
+        "00200": "wafer"
+      },
+      "01101": "payer",
+      "21100": "gazer",
+      "01210": "harem",
+      "21101": "gayer",
+      "01200": "parer",
+      "11100": {
+        "guess": "wager",
+        "02222": "eager",
+        "22222": "wager"
+      }
+    },
+    "02110": "early",
+    "11010": "zebra",
+    "22220": "baler",
+    "21010": "break",
+    "01110": {
+      "guess": "clear",
+      "22222": "clear",
+      "01121": "feral"
+    },
+    "01010": {
+      "guess": "wacks",
+      "11001": "swear",
+      "21010": "wreak",
+      "01000": "arena",
+      "01010": "freak",
+      "01100": "cream",
+      "01001": {
+        "guess": "remap",
+        "11120": "smear",
+        "11021": "spear",
+        "11020": "shear"
+      },
+      "01110": "creak"
+    },
+    "02120": {
+      "guess": "lager",
+      "22222": "lager",
+      "22022": "layer"
+    },
+    "21012": "bread",
+    "11011": "debar",
+    "22020": "baker",
+    "01012": "dread"
+  },
+  "00011": {
+    "guess": "fusil",
+    "01001": "exult",
+    "01100": "setup",
+    "00200": "beset",
+    "00020": {
+      "guess": "debit",
+      "12021": "tepid",
+      "22222": "debit",
+      "01021": "ethic"
+    },
+    "00120": "stein",
+    "00102": "steel",
+    "20001": "fleet",
+    "10000": "theft",
+    "00011": "inlet",
+    "00002": "betel",
+    "10010": "thief",
+    "02100": {
+      "guess": "quest",
+      "02222": "guest",
+      "22222": "quest"
+    },
+    "20011": "filet",
+    "00001": {
+      "guess": "dwelt",
+      "00222": "knelt",
+      "22222": "dwelt",
+      "00212": "elect"
+    },
+    "20000": "fetch",
+    "00110": {
+      "guess": "heist",
+      "01222": "exist",
+      "22222": "heist"
+    },
+    "21100": "fetus",
+    "10001": "cleft",
+    "02010": "quiet",
+    "01200": {
+      "guess": "upset",
+      "20222": "unset",
+      "22222": "upset"
+    },
+    "20020": "fetid",
+    "02000": "duvet",
+    "10020": "befit",
+    "00000": {
+      "guess": "tenet",
+      "01012": "eject",
+      "22222": "tenet",
+      "02022": "beget",
+      "22000": "teddy",
+      "01112": "event",
+      "21022": "tweet",
+      "21020": "tweed"
+    },
+    "00010": {
+      "guess": "evict",
+      "20102": "eight",
+      "10102": "inept",
+      "20222": "edict",
+      "22222": "evict"
+    },
+    "00100": {
+      "guess": "pwned",
+      "02020": "sweet",
+      "10110": "spent",
+      "00022": "steed",
+      "10020": "steep",
+      "00110": "scent",
+      "12010": "swept",
+      "00020": "sheet",
+      "00010": "chest"
+    },
+    "01000": {
+      "guess": "debut",
+      "01012": "unmet",
+      "22222": "debut"
+    },
+    "00111": "islet",
+    "00101": {
+      "guess": "spelt",
+      "21212": "slept",
+      "20222": "smelt",
+      "20212": "sleet",
+      "22222": "spelt"
+    }
+  },
+  "11012": {
+    "guess": "trope",
+    "11202": "store",
+    "22222": "trope",
+    "22202": "trove"
+  },
+  "10200": {
+    "guess": "blind",
+    "00002": {
+      "guess": "eughs",
+      "00011": "shard",
+      "00010": "chard",
+      "01000": "fraud",
+      "02100": "guard",
+      "00000": "award"
+    },
+    "21000": "brawl",
+    "01000": "crawl",
+    "00110": "grain",
+    "00010": "prawn",
+    "01010": "snarl",
+    "00001": {
+      "guess": "dwarf",
+      "20210": "drama",
+      "22222": "dwarf"
+    },
+    "00111": "drain",
+    "00011": "drawn",
+    "01001": "drawl",
+    "20010": "brawn",
+    "20102": "braid",
+    "20110": "brain",
+    "00021": "drank",
+    "00000": {
+      "guess": "chiks",
+      "10001": {
+        "guess": "scarf",
+        "22220": "scary",
+        "22222": "scarf"
+      },
+      "22000": "charm",
+      "00010": "quark",
+      "20010": "crack",
+      "10010": "wrack",
+      "02000": "wharf",
+      "00011": "spark",
+      "20002": "crass",
+      "00002": "grass",
+      "00000": "gravy",
+      "20000": {
+        "guess": "crazy",
+        "22222": "crazy",
+        "22200": "cramp"
+      },
+      "02011": "shark",
+      "01000": "graph",
+      "21001": "crash",
+      "00001": {
+        "guess": "swarm",
+        "22222": "swarm",
+        "10210": "grasp"
+      },
+      "02001": "sharp"
+    },
+    "01100": {
+      "guess": "frail",
+      "22222": "frail",
+      "02222": "grail"
+    },
+    "20022": "brand",
+    "20000": {
+      "guess": "brass",
+      "22222": "brass",
+      "22220": "brash"
+    },
+    "02100": "flair",
+    "02000": "alarm",
+    "00022": "grand",
+    "00101": "diary",
+    "00020": {
+      "guess": "cuspy",
+      "00010": "prank",
+      "20000": "crank",
+      "00000": "frank"
+    },
+    "00100": "chair"
+  },
+  "02210": {
+    "guess": "timbo",
+    "10011": "boast",
+    "10001": "coast",
+    "20001": "toast"
+  },
+  "00021": {
+    "guess": "plesh",
+    "10102": "depth",
+    "00100": {
+      "guess": "deity",
+      "22222": "deity",
+      "02022": "jetty"
+    },
+    "00101": "hefty",
+    "00110": {
+      "guess": "testy",
+      "22222": "testy",
+      "02222": "zesty"
+    },
+    "01100": "lefty",
+    "00202": "teeth",
+    "20200": "piety",
+    "10100": "empty",
+    "00102": "tenth",
+    "20100": "petty"
+  },
+  "01022": {
+    "guess": "quote",
+    "00222": "smote",
+    "22222": "quote"
+  },
+  "01100": {
+    "guess": "manic",
+    "02200": "banjo",
+    "02001": "cacao",
+    "11100": "among",
+    "11010": "axiom",
+    "01100": {
+      "guess": "along",
+      "20221": "agony",
+      "22222": "along"
+    },
+    "01020": {
+      "guess": "audio",
+      "20121": "avoid",
+      "22222": "audio"
+    },
+    "22100": "mason",
+    "22000": "mambo",
+    "02002": "havoc",
+    "01200": "annoy",
+    "22200": "mango",
+    "22001": "macho",
+    "02101": "bacon",
+    "01001": "cloak",
+    "01000": {
+      "guess": "flown",
+      "02200": "aloud",
+      "11200": "afoul",
+      "01110": "aglow",
+      "11100": "offal",
+      "01200": "shoal",
+      "02100": "alloy",
+      "12200": "aloof",
+      "02110": "allow"
+    },
+    "01110": "axion",
+    "01010": "viola",
+    "02100": {
+      "guess": "wagon",
+      "22222": "wagon",
+      "02022": "salon"
+    },
+    "02000": {
+      "guess": "lasso",
+      "02001": "bayou",
+      "02101": "savoy",
+      "22222": "lasso",
+      "12102": "salvo"
+    },
+    "02201": "canon"
+  },
+  "10000": {
+    "guess": "chubs",
+    "22000": "chirp",
+    "10100": "incur",
+    "00100": {
+      "guess": "quirk",
+      "02020": "furry",
+      "22222": "quirk",
+      "02011": "murky",
+      "02110": "lurid"
+    },
+    "02000": "whirl",
+    "21201": "crush",
+    "00010": {
+      "guess": "glady",
+      "00002": "briny",
+      "00000": "brink",
+      "10000": "bring"
+    },
+    "20000": {
+      "guess": "crimp",
+      "22222": "crimp",
+      "22200": "crick"
+    },
+    "11010": "birch",
+    "00110": "burly",
+    "01100": "hurry",
+    "00101": {
+      "guess": "syrup",
+      "21210": "surly",
+      "22222": "syrup"
+    },
+    "02111": "shrub",
+    "11100": "lurch",
+    "01211": "brush",
+    "10010": "brick",
+    "10111": "scrub",
+    "00210": "blurb",
+    "00201": {
+      "guess": "spurn",
+      "22222": "spurn",
+      "11220": "usurp",
+      "21220": "slurp"
+    },
+    "02001": "shirk",
+    "22200": "churn",
+    "00001": {
+      "guess": "prism",
+      "11110": "sprig",
+      "22222": "prism",
+      "01211": "smirk",
+      "02220": "frisk",
+      "01210": "swirl"
+    },
+    "00102": "virus",
+    "00011": "brisk",
+    "20200": "crump",
+    "10000": {
+      "guess": "lyric",
+      "22222": "lyric",
+      "00111": "prick"
+    },
+    "01000": "myrrh",
+    "00200": {
+      "guess": "wrung",
+      "22222": "wrung",
+      "02201": "gruff",
+      "02220": "drunk",
+      "02200": "druid"
+    },
+    "00000": {
+      "guess": "glady",
+      "00002": "privy",
+      "10000": "wring",
+      "01010": "drill",
+      "01002": "wryly",
+      "01000": {
+        "guess": "krill",
+        "02222": "frill",
+        "22222": "krill"
+      },
+      "00010": "drink",
+      "20010": "grind",
+      "01012": "dryly",
+      "21000": "grill",
+      "21002": "girly",
+      "20002": "grimy"
+    },
+    "20100": {
+      "guess": "wolve",
+      "00020": "curvy",
+      "00100": "curly",
+      "00000": "curry"
+    },
+    "10101": "scrum",
+    "20001": "crisp",
+    "20210": "crumb",
+    "02101": "shrug"
+  },
+  "20201": {
+    "guess": "coaly",
+    "00202": "ready",
+    "10200": "reach",
+    "00220": "realm",
+    "00200": "rearm"
+  },
+  "10120": {
+    "guess": "party",
+    "02222": "warty",
+    "22222": "party"
+  },
+  "11101": "opera",
+  "12010": {
+    "guess": "worst",
+    "02102": "court",
+    "02101": "motor",
+    "02211": "torus",
+    "22222": "worst",
+    "02201": "torch",
+    "02221": "torso"
+  },
+  "00010": {
+    "guess": "pilch",
+    "02022": {
+      "guess": "hodad",
+      "20000": "hitch",
+      "10000": "witch",
+      "10100": "ditch"
+    },
+    "00001": {
+      "guess": "shunt",
+      "22222": "shunt",
+      "02201": "thumb"
+    },
+    "01002": "thigh",
+    "22001": "pithy",
+    "00010": "uncut",
+    "00022": {
+      "guess": "hodad",
+      "20000": "hutch",
+      "10100": "dutch",
+      "10000": "butch"
+    },
+    "01020": "stick",
+    "02000": {
+      "guess": "timid",
+      "12021": "digit",
+      "12020": "visit",
+      "22222": "timid",
+      "12101": "midst"
+    },
+    "00020": "stuck",
+    "00100": "blunt",
+    "01000": {
+      "guess": "skint",
+      "00202": "twixt",
+      "21221": "stink",
+      "20201": "stiff",
+      "00112": "unfit",
+      "20221": "sting",
+      "20222": "stint",
+      "10202": "twist",
+      "20202": "swift",
+      "00221": "tying"
+    },
+    "11200": {
+      "guess": "split",
+      "22222": "split",
+      "01221": "tulip"
+    },
+    "00000": {
+      "guess": "gunky",
+      "01002": "study",
+      "01110": "stunk",
+      "01100": "stunt",
+      "11100": "stung",
+      "01000": "stuff"
+    },
+    "12000": "tipsy",
+    "01011": "itchy",
+    "02101": "light",
+    "10001": "thump",
+    "22022": "pitch",
+    "02001": {
+      "guess": "fawns",
+      "00010": "night",
+      "20000": "fight",
+      "00000": {
+        "guess": "might",
+        "22222": "might",
+        "02222": "tight"
+      },
+      "00100": "wight",
+      "00001": "sight"
+    },
+    "11100": "spilt",
+    "01200": "unlit",
+    "02100": "limit",
+    "01100": {
+      "guess": "guilt",
+      "00221": "still",
+      "00222": "stilt",
+      "02222": {
+        "guess": "quilt",
+        "22222": "quilt",
+        "02222": "built"
+      },
+      "00212": "flint",
+      "22222": "guilt",
+      "01111": "until",
+      "20212": "glint"
+    },
+    "01021": "thick",
+    "01010": "tunic",
+    "11000": "input",
+    "10000": "stump",
+    "01001": {
+      "guess": "think",
+      "22222": "think",
+      "22220": "thing",
+      "12200": "shift"
+    }
+  },
+  "02002": {
+    "guess": "glums",
+    "11000": "lodge",
+    "10100": "vogue",
+    "00201": "house",
+    "10000": "dodge",
+    "00000": {
+      "guess": "booze",
+      "22222": "booze",
+      "02002": "voice"
+    },
+    "00200": "coupe",
+    "20200": "gouge",
+    "00211": "mouse",
+    "00001": {
+      "guess": "poise",
+      "12022": "copse",
+      "22022": "posse",
+      "02022": "noose",
+      "02222": "noise",
+      "22222": "poise"
+    },
+    "00010": "movie",
+    "20001": "goose",
+    "01000": "noble",
+    "01200": "boule",
+    "01201": "louse",
+    "00011": "moose",
+    "01001": {
+      "guess": "loose",
+      "12012": "solve",
+      "22222": "loose"
+    }
+  },
+  "10211": {
+    "guess": "teary",
+    "22222": "teary",
+    "12220": "heart"
+  },
+  "11110": {
+    "guess": "abort",
+    "20111": "actor",
+    "10112": "tarot",
+    "22222": "abort"
+  }
+}

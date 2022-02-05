@@ -9,10 +9,10 @@ public class WordleSolver {
     WordList allWords = WordList.getWordList("valid_words.txt");
     WordList possibleSolutions = WordList.getWordList("all_solutions.txt");
 
-    GuessNode rootNode = new GuessNode(null, new FastMetric(), allWords, possibleSolutions);
+    GuessNode rootNode = new GuessNode(null, new ScoreMetric(), allWords, possibleSolutions);
     String json = rootNode.generateTree();
 
-    PrintWriter writer = new PrintWriter(new FileWriter("wordle-solver-app/src/tree.json"));
+    PrintWriter writer = new PrintWriter(new FileWriter("wordle-solver-app/src/score_tree.json"));
     writer.println(json);
     writer.close();
 

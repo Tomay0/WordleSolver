@@ -71,7 +71,8 @@ export function evaluateTree(tree: GuessTree) {
   const depths: {[id: string]: number} = treeDepths(tree, {}, 1);
   const counts: {[id: number]: number} = {}
 
-  for (const i of Object.values(depths)) {
+  for (let i of Object.values(depths)) {
+    if (i > 6) i = 0;
     if (i in counts) {
       counts[i] += 1;
     } else {

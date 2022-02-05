@@ -11,7 +11,7 @@ public class FastMetric extends GuessMetric{
   public float getMetric(Map<String, GuessLogic> allLogic, String guess) {
     Collection<Integer> sizes = getAllSizes(allLogic).values();
 
-    float metric = sizes.stream().filter(x -> x == 1).count() * 100;
-    return metric - sizes.stream().mapToInt(Integer::intValue).sum();
+    float metric = sizes.stream().filter(x -> x == 1).count() * 10;
+    return metric + 10.0f/sizes.stream().mapToInt(Integer::intValue).sum();
   }
 }

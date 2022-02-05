@@ -1,7 +1,7 @@
 import React from 'react';
 import './App.css';
 
-import treeJson from "./fast_tree.json"
+import treeJson from "./balanced_tree.json"
 import {descendTree, createTree, evaluateTree} from './tree';
 
 class App extends React.Component<{}, {guessList: Array<number>, wordList: Array<string>}> {
@@ -12,7 +12,7 @@ class App extends React.Component<{}, {guessList: Array<number>, wordList: Array
 
     console.log(tree);
     console.log(evaluateTree(tree));
-    console.log(descendTree(tree, "00000", [0, 0, 0, 0, 0]));
+    //console.log(descendTree(tree, "00000", [0, 0, 0, 0, 0]));
   }
 
   render() {

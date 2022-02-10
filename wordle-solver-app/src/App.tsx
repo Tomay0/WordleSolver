@@ -1,13 +1,14 @@
 import React from 'react';
 import './App.css';
+import TileRow from './TileRow'
 
 import treeJson from "./balanced_tree.json"
 import {descendTree, createTree, evaluateTree} from './tree';
 
-class App extends React.Component<{}, {guessList: Array<number>, wordList: Array<string>}> {
+export default class App extends React.Component<{}, {guessList: Array<number>, wordList: Array<string>}> {
   constructor(props: {}) {
     super(props);
-    
+
     const tree = createTree(treeJson);
 
     console.log(tree);
@@ -17,13 +18,11 @@ class App extends React.Component<{}, {guessList: Array<number>, wordList: Array
 
   render() {
     return (
-      <div className="App">
-        <header className="App-header">
-          <h1>Hello</h1>
+      <div className="app">
+        <header className="app-header">
+          <TileRow word="hello"></TileRow>
         </header>
       </div>
     );
   }
 }
-
-export default App;

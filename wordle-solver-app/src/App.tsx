@@ -70,7 +70,7 @@ export default class App extends React.Component<{}, GameState> {
           <h1>Wordle Solver</h1>
           <p>This will always tell you the best word to guess next.</p>
           <ul>
-            <li>Make your guess in Wordle</li>
+            <li>Make your guess in Wordle with our best chosen word</li>
             <li>Enter the result from the game by clicking the letters</li>
             <li>Hit next to see the next word you should guess</li>
           </ul>

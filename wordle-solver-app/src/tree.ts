@@ -1,4 +1,3 @@
-import { isMappedTypeNode } from 'typescript';
 import { Failable, createError, createValue } from './util';
 
 export type GuessTree = {
@@ -82,24 +81,17 @@ export function evaluateTree(tree: GuessTree) {
   return counts;
 }
 
-export function descendTree(tree: GuessTree, dir: string, guess: Array<number>): Failable<string> {
+export function descendTree(tree: GuessTree, dir: string): Failable<string> {
   // check parent directory
   const treeBranch: GuessTree | string | null = getTreeBranch(tree, dir);
 
-  if (treeBranch === null || typeof treeBranch === "string") {
+  if (treeBranch === null) {
     return createError("Invalid path")
   }
-  const guessString: string = guess.join("");
 
-  if (guessString in treeBranch["guesses"]) {
-    const childBranch: GuessTree | string = treeBranch["guesses"][guessString];
-
-    if (typeof childBranch === "string") {
-      return createValue(childBranch);
-    }
-
-    return createValue(childBranch["guess"]);
+  if (typeof treeBranch === "string") {
+    return createValue(treeBranch);
   }
 
-  return createError("No valid solutions for this path");
+  return createValue(treeBranch["guess"]);
 }

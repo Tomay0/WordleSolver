@@ -1,4 +1,4 @@
-import React, {ReactElement} from 'react';
+import React from 'react';
 import './App.css';
 
 function Tile(props:{letter: string, guessState: number, onClick: () => void}) {
@@ -9,8 +9,8 @@ function Tile(props:{letter: string, guessState: number, onClick: () => void}) {
   );
 }
 
-export default class TileRow extends React.Component<{word: string}, {guessState: Array<number>}> {
-  constructor(props: {word: string}) {
+export default class TileRow extends React.Component<{word: string, onUpdate: (state: Array<number>) => void, disabled: boolean}, {guessState: Array<number>}> {
+  constructor(props: {word: string, onUpdate: (state: Array<number>) => void, disabled: boolean}) {
     super(props);
     this.changeGuessState = this.changeGuessState.bind(this);
 
@@ -18,10 +18,13 @@ export default class TileRow extends React.Component<{word: string}, {guessState
   }
 
   changeGuessState(i: number) {
+    if (this.props.disabled) return;
+    
     const guessState = this.state.guessState;
     guessState[i] = (guessState[i] + 1) % 3;
 
     this.setState({guessState});
+    this.props.onUpdate(guessState);
   }
 
   render() {

@@ -2,14 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="be5e3547-27c6-4cea-8e89-5271f1dd505a" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/tomay0/wordle/ScoreMetric.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/all_solutions_shorter.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tomay0/wordle/CheckpointHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tomay0/wordle/RecursiveGuessNode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tomay0/wordle/test/RecursiveGuessNodeTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tomay0/wordle/util/Pair.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/valid_words_shorter.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/WordleSolver/tomay0/wordle/FastMetric.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/WordleSolver/tomay0/wordle/FastMetric.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tomay0/wordle/FastMetric.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tomay0/wordle/FastMetric.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/WordleSolver/tomay0/wordle/GuessNode.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/WordleSolver/tomay0/wordle/GuessNode.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/WordleSolver/tomay0/wordle/WordleSolver.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/WordleSolver/tomay0/wordle/WordleSolver.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tomay0/wordle/GuessNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tomay0/wordle/GuessNode.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/tomay0/wordle/WordleSolver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tomay0/wordle/WordleSolver.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wordle-solver-app/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/wordle-solver-app/src/App.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wordle-solver-app/src/fast_tree.json" beforeDir="false" afterPath="$PROJECT_DIR$/wordle-solver-app/src/fast_tree.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wordle-solver-app/src/tree.ts" beforeDir="false" afterPath="$PROJECT_DIR$/wordle-solver-app/src/tree.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wordle-solver-app/src/balanced_tree.json" beforeDir="false" afterPath="$PROJECT_DIR$/wordle-solver-app/src/balanced_tree.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,27 +69,16 @@
       <recent name="H:\Thomas\Dev\WordleSolver" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="tomay0.wordle.test" />
       <recent name="tomay0.wordle" />
       <recent name="tomay0.wordle.util" />
     </key>
   </component>
   <component name="RunManager" selected="Application.WordleSolver">
-    <configuration name="TreeWalker" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="tomay0.wordle.TreeWalker" />
-      <module name="WordleSolver" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="tomay0.wordle.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="WordleSolver" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="tomay0.wordle.WordleSolver" />
       <module name="WordleSolver" />
+      <option name="PROGRAM_PARAMETERS" value="raise" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="tomay0.wordle.*" />
@@ -95,7 +89,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GuessNodeTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="RecursiveGuessNodeTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="WordleSolver" />
       <extension name="coverage">
         <pattern>
@@ -104,13 +98,13 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="tomay0.wordle.test" />
-      <option name="MAIN_CLASS_NAME" value="tomay0.wordle.test.GuessNodeTest" />
+      <option name="MAIN_CLASS_NAME" value="tomay0.wordle.test.RecursiveGuessNodeTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GuessNodeTest.testThreeWords" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="RecursiveGuessNodeTest.bigBoy" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="WordleSolver" />
       <extension name="coverage">
         <pattern>
@@ -119,14 +113,30 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="tomay0.wordle.test" />
-      <option name="MAIN_CLASS_NAME" value="tomay0.wordle.test.GuessNodeTest" />
+      <option name="MAIN_CLASS_NAME" value="tomay0.wordle.test.RecursiveGuessNodeTest" />
+      <option name="METHOD_NAME" value="bigBoy" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RecursiveGuessNodeTest.testThreeWords" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="WordleSolver" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tomay0.wordle.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tomay0.wordle.test" />
+      <option name="MAIN_CLASS_NAME" value="tomay0.wordle.test.RecursiveGuessNodeTest" />
       <option name="METHOD_NAME" value="testThreeWords" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GuessNodeTest.testTwoWords" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="RecursiveGuessNodeTest.testTwoWords" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="WordleSolver" />
       <extension name="coverage">
         <pattern>
@@ -135,20 +145,27 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="tomay0.wordle.test" />
-      <option name="MAIN_CLASS_NAME" value="tomay0.wordle.test.GuessNodeTest" />
+      <option name="MAIN_CLASS_NAME" value="tomay0.wordle.test.RecursiveGuessNodeTest" />
       <option name="METHOD_NAME" value="testTwoWords" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <list>
+      <item itemvalue="Application.WordleSolver" />
+      <item itemvalue="JUnit.RecursiveGuessNodeTest" />
+      <item itemvalue="JUnit.RecursiveGuessNodeTest.bigBoy" />
+      <item itemvalue="JUnit.RecursiveGuessNodeTest.testThreeWords" />
+      <item itemvalue="JUnit.RecursiveGuessNodeTest.testTwoWords" />
+    </list>
     <recent_temporary>
       <list>
         <item itemvalue="Application.WordleSolver" />
-        <item itemvalue="JUnit.GuessNodeTest.testThreeWords" />
-        <item itemvalue="JUnit.GuessNodeTest.testTwoWords" />
-        <item itemvalue="JUnit.GuessNodeTest" />
-        <item itemvalue="Application.TreeWalker" />
+        <item itemvalue="JUnit.RecursiveGuessNodeTest.testTwoWords" />
+        <item itemvalue="JUnit.RecursiveGuessNodeTest.testThreeWords" />
+        <item itemvalue="JUnit.RecursiveGuessNodeTest.bigBoy" />
+        <item itemvalue="JUnit.RecursiveGuessNodeTest" />
       </list>
     </recent_temporary>
   </component>

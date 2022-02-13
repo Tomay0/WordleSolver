@@ -24,7 +24,7 @@ public class GuessNode {
   }
 
   public String getBestGuessString() {
-    return getBestGuess().guess;
+    return getBestGuess().guess();
   }
 
   private Guess getBestGuess() {

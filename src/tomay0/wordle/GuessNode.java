@@ -1,6 +1,5 @@
 package tomay0.wordle;
 
-import java.io.*;
 import java.util.*;
 import java.util.stream.Collectors;
 
@@ -67,7 +66,7 @@ public class GuessNode {
   }
 
 
-  public String generateTree() {
+  public String getTree() {
     if (isLeaf())
       return '"' + possibleSolutions.iterator().next() + '"';
 
@@ -78,7 +77,7 @@ public class GuessNode {
 
     for (GuessNode child : getChildNodes()) {
       String pattern = child.parent;
-      String tree = child.generateTree();
+      String tree = child.getTree();
 
       sb.append(", \"" + pattern + "\": " + tree);
     }
@@ -99,4 +98,5 @@ public class GuessNode {
       return Boolean.compare(isInPossibilities, o.isInPossibilities);
     }
   }
+
 }

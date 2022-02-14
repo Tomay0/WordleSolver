@@ -8,15 +8,15 @@ import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
 public class RecursiveGuessNode {
-  private static final int CHECKPOINT_THRESHOLD = 15;
+  private static final int TOP_METRIC_THRESHOLD = 10; // the higher - the worst the performance but the closer to the best solution
+  private static final double log2 = Math.log(2);
 
   private WordList wordList;
   private WordList possibleSolutions;
   private double expectedGuesses = 0;
   private int worstCaseGuesses = 0;
   private Guess bestGuess = null;
-  private List<Guess> guesses = null;
-  private boolean debug = false;
+  private boolean debug = true;
   private boolean parallel = true;
   private int depth;
 
@@ -24,15 +24,22 @@ public class RecursiveGuessNode {
     this.wordList = wordList;
     this.possibleSolutions = possibleSolutions;
     this.depth = depth;
+
+    if (possibleSolutions.size() < 30) {
+      debug = false;
+    }
   }
 
-  private Pair<String, Integer[]> getEstimatedMetric(String guess) {
+  private Pair<String, Double[]> getEstimatedMetric(String guess) {
     Map<String, GuessLogic> allLogic = possibleSolutions.stream()
         .collect(Collectors.toMap(x -> x, solution -> GuessLogic.generate(guess, solution)));
 
-    Map<GuessLogic, Integer> possibilities = new HashSet<>(allLogic.values()).stream().collect(Collectors.toMap(x -> x, l -> l.getPossibilities(possibleSolutions).size()));
+    Map<GuessLogic, Double> possibilities = new HashSet<>(allLogic.values()).stream().collect(Collectors.toMap(x -> x, l -> (double) l.getPossibilities(possibleSolutions).size()));
 
-    return new Pair(guess, new Integer[]{possibilities.size(), Collections.max(possibilities.values())});
+    double ns = possibleSolutions.size();
+    double ex = possibilities.values().stream().mapToDouble(x -> (x / ns) * Math.log(ns / x) / log2).sum();
+
+    return new Pair(guess, new Double[]{ex, Collections.max(possibilities.values())});
   }
 
   public String getBestGuessString() {
@@ -40,6 +47,9 @@ public class RecursiveGuessNode {
   }
 
   private Pair<String, Integer> getGuessExpectedGuesses(String guess) {
+    if (debug) {
+      System.out.println(depthPrefix() + "Testing: " + guess);
+    }
     Map<String, GuessLogic> allLogic = possibleSolutions.stream()
         .collect(Collectors.toMap(x -> x, solution -> GuessLogic.generate(guess, solution)));
 
@@ -51,13 +61,8 @@ public class RecursiveGuessNode {
     return new Pair(guess, expectedGuesses);
   }
 
-  public void setBestWordAndDebug(String word) {
+  public void setBestWord(String word) {
     bestGuess = getGuess(word);
-
-    for (RecursiveGuessNode rgn : bestGuess.nodes().values()) {
-      rgn.setDebug(true);
-      rgn.setParallel(true);
-    }
   }
 
   public Guess getBestGuess() {
@@ -70,32 +75,19 @@ public class RecursiveGuessNode {
     if (possibleSolutions.size() < 3) {
       bestGuess = getGuess(possibleSolutions.iterator().next());
       return bestGuess;
-    }
-    else if(possibleSolutions.size() < 8) {
+    } else if (possibleSolutions.size() < 8) {
       // try see if there's a word you can guess that will reduce to 2 guesses
-      Map<String, Integer[]> estimatedMetrics = possibleSolutions.stream().map(this::getEstimatedMetric).collect(Collectors.toMap(Pair::a, Pair::b));
+      Map<String, Double[]> estimatedMetrics = possibleSolutions.stream().map(this::getEstimatedMetric).collect(Collectors.toMap(Pair::a, Pair::b));
       Set<String> words2 = possibleSolutions.stream().filter(word -> estimatedMetrics.get(word)[1] == 1).collect(Collectors.toSet());
       if (words2.size() > 0) {
         bestGuess = getGuess(words2.iterator().next());
 
         return bestGuess;
       }
-    } else if(possibleSolutions.size() > CHECKPOINT_THRESHOLD) {
-      // load checkpoint
-      String tryBestWord = CheckpointHandler.getInstance().getBestWord(possibleSolutions);
-      if(tryBestWord != null) {
-        bestGuess = getGuess(tryBestWord);
-
-        if (debug) {
-          System.out.println(depthPrefix() + "Best: " + bestGuess.guess());
-        }
-
-        return bestGuess;
-      }
     }
 
     // calculate what words should be recursively checked
-    Map<String, Integer[]> estimatedMetrics = stream(wordList).map(this::getEstimatedMetric).collect(Collectors.toMap(Pair::a, Pair::b));
+    Map<String, Double[]> estimatedMetrics = stream(wordList).map(this::getEstimatedMetric).collect(Collectors.toMap(Pair::a, Pair::b));
 
     WordList words = new WordList();
 
@@ -114,14 +106,8 @@ public class RecursiveGuessNode {
       return bestGuess;
     }
 
-    String bestByNumBranches = estimatedMetrics.keySet().stream().min(comparing(estimatedMetrics::get, true)).get();
-    String bestByMaxBranchSize = estimatedMetrics.keySet().stream().min(comparing(estimatedMetrics::get, false)).get();
-
-    int minBranches = estimatedMetrics.get(bestByMaxBranchSize)[0];
-    int maxBranchSize = estimatedMetrics.get(bestByNumBranches)[1];
-
-    wordList.stream().filter(w -> estimatedMetrics.get(w)[0] >= minBranches).forEach(w -> words.add(w));
-    wordList.stream().filter(w -> estimatedMetrics.get(w)[1] <= maxBranchSize).forEach(w -> words.add(w));
+    List<String> sortedMetrics = estimatedMetrics.keySet().stream().sorted(Comparator.comparingDouble(x -> estimatedMetrics.get(x)[0]).reversed()).toList();
+    words.addAll(sortedMetrics.subList(0, TOP_METRIC_THRESHOLD));
 
     if (debug) {
       System.out.println(depthPrefix() + "Testing starter words: " + words);
@@ -131,10 +117,6 @@ public class RecursiveGuessNode {
 
     if (debug) {
       System.out.println(depthPrefix() + "Best: " + bestGuess.guess());
-    }
-
-    if (possibleSolutions.size() > CHECKPOINT_THRESHOLD) {
-      CheckpointHandler.getInstance().saveBestWord(possibleSolutions, bestGuess.guess());
     }
 
     return bestGuess;
@@ -226,11 +208,11 @@ public class RecursiveGuessNode {
   private <T> Stream<T> stream(Collection<T> c) {
     return parallel && c.size() > 50 ? c.parallelStream() : c.stream();
   }
-  
+
   private String depthPrefix() {
     StringBuilder sb = new StringBuilder();
-    
-    for(int i = 0; i < depth; i++) {
+
+    for (int i = 0; i < depth; i++) {
       sb.append("  ");
     }
     return sb.toString();

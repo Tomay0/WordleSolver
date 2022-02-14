@@ -2,7 +2,7 @@ import React from 'react';
 import './App.css';
 import TileRow from './TileRow'
 
-import treeJson from "./balanced_tree.json"
+import treeJson from "./tree.json"
 import {GuessTree, descendTree, createTree, evaluateTree} from './tree';
 
 
@@ -15,6 +15,8 @@ export default class App extends React.Component<{}, GameState> {
     super(props);
 
     this.tree = createTree(treeJson);
+
+    console.log(evaluateTree(this.tree));
 
     const topState = {word: this.tree["guess"].toUpperCase(), wordState: [0, 0, 0, 0, 0]};
     

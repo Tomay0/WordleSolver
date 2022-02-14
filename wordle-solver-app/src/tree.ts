@@ -70,15 +70,23 @@ export function evaluateTree(tree: GuessTree) {
   const depths: {[id: string]: number} = treeDepths(tree, {}, 1);
   const counts: {[id: number]: number} = {}
 
+  let fails = 0;
+  let tot = 0;
+
   for (let i of Object.values(depths)) {
-    if (i > 6) i = 0;
-    if (i in counts) {
+    if (i > 6) {
+      fails += 1;
+    }
+    else if (i in counts) {
       counts[i] += 1;
     } else {
       counts[i] = 1;
     }
+
+    tot += i;
   }
-  return counts;
+
+  return {distribution: counts, numFails: fails, averageCase: tot / Object.keys(depths).length};
 }
 
 export function descendTree(tree: GuessTree, dir: string): Failable<string> {

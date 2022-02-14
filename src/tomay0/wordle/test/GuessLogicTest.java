@@ -6,12 +6,9 @@ import tomay0.wordle.WordList;
 import tomay0.wordle.util.ArrayMap;
 import tomay0.wordle.util.CountMap;
 
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.HashMap;
-import java.util.Map;
+import java.util.*;
 
-import static org.junit.jupiter.api.Assertions.assertEquals;
+import static org.junit.jupiter.api.Assertions.*;
 
 public class GuessLogicTest {
 
@@ -19,8 +16,11 @@ public class GuessLogicTest {
   public void testMecca() {
     GuessLogic logic = GuessLogic.generate("mecca", "cocks");
 
-    Map<Integer, Character> correct = new HashMap<>();
-    correct.put(2, 'c');
+    Set<Integer> correct = new HashSet<>();
+    correct.add(2);
+
+    CountMap<Character> characterCountMap = new CountMap<>();
+    characterCountMap.increment('c');
 
     ArrayMap<Character, Integer> wrongPlace = new ArrayMap<>();
     wrongPlace.add('c', 3);
@@ -35,6 +35,7 @@ public class GuessLogicTest {
     String toString = "mecca\n--+*-";
 
     assertEquals(correct, logic.getCorrect());
+    assertEquals(characterCountMap, logic.getCorrectCounts());
     assertEquals(wrongPlace, logic.getWrongPlace());
     assertEquals(exactCounts, logic.getExactCharacterCount());
     assertEquals(displayArray, logic.getDisplayArray());
@@ -45,9 +46,13 @@ public class GuessLogicTest {
   public void testFoods() {
     GuessLogic logic = GuessLogic.generate("foods", "cocks");
 
-    Map<Integer, Character> correct = new HashMap<>();
-    correct.put(1, 'o');
-    correct.put(4, 's');
+    Set<Integer> correct = new HashSet<>();
+    correct.add(1);
+    correct.add(4);
+    
+    CountMap<Character> characterCountMap = new CountMap<>();
+    characterCountMap.increment('o');
+    characterCountMap.increment('s');
 
     ArrayMap<Character, Integer> wrongPlace = new ArrayMap<>();
 
@@ -61,6 +66,7 @@ public class GuessLogicTest {
     String toString = "foods\n-+--+";
 
     assertEquals(correct, logic.getCorrect());
+    assertEquals(characterCountMap, logic.getCorrectCounts());
     assertEquals(wrongPlace, logic.getWrongPlace());
     assertEquals(exactCounts, logic.getExactCharacterCount());
     assertEquals(displayArray, logic.getDisplayArray());
@@ -71,10 +77,15 @@ public class GuessLogicTest {
   public void testKicks() {
     GuessLogic logic = GuessLogic.generate("kicks", "cocks");
 
-    Map<Integer, Character> correct = new HashMap<>();
-    correct.put(2, 'c');
-    correct.put(3, 'k');
-    correct.put(4, 's');
+    Set<Integer> correct = new HashSet<>();
+    correct.add(2);
+    correct.add(3);
+    correct.add(4);
+
+    CountMap<Character> characterCountMap = new CountMap<>();
+    characterCountMap.increment('c');
+    characterCountMap.increment('k');
+    characterCountMap.increment('s');
 
     ArrayMap<Character, Integer> wrongPlace = new ArrayMap<>();
 
@@ -87,6 +98,7 @@ public class GuessLogicTest {
     String toString = "kicks\n--+++";
 
     assertEquals(correct, logic.getCorrect());
+    assertEquals(characterCountMap, logic.getCorrectCounts());
     assertEquals(wrongPlace, logic.getWrongPlace());
     assertEquals(exactCounts, logic.getExactCharacterCount());
     assertEquals(displayArray, logic.getDisplayArray());
@@ -97,7 +109,8 @@ public class GuessLogicTest {
   public void testScore() {
     GuessLogic logic = GuessLogic.generate("score", "cocks");
 
-    Map<Integer, Character> correct = new HashMap<>();
+    Set<Integer> correct = new HashSet<>();
+    CountMap<Character> characterCountMap = new CountMap<>();
 
     ArrayMap<Character, Integer> wrongPlace = new ArrayMap<>();
     wrongPlace.add('s', 0);
@@ -113,6 +126,7 @@ public class GuessLogicTest {
     String toString = "score\n***--";
 
     assertEquals(correct, logic.getCorrect());
+    assertEquals(characterCountMap, logic.getCorrectCounts());
     assertEquals(wrongPlace, logic.getWrongPlace());
     assertEquals(exactCounts, logic.getExactCharacterCount());
     assertEquals(displayArray, logic.getDisplayArray());
@@ -123,7 +137,8 @@ public class GuessLogicTest {
   public void testAcock() {
     GuessLogic logic = GuessLogic.generate("acock", "cocks");
 
-    Map<Integer, Character> correct = new HashMap<>();
+    Set<Integer> correct = new HashSet<>();
+    CountMap<Character> characterCountMap = new CountMap<>();
 
     ArrayMap<Character, Integer> wrongPlace = new ArrayMap<>();
     wrongPlace.add('c', 1);
@@ -139,6 +154,7 @@ public class GuessLogicTest {
     String toString = "acock\n-****";
 
     assertEquals(correct, logic.getCorrect());
+    assertEquals(characterCountMap, logic.getCorrectCounts());
     assertEquals(wrongPlace, logic.getWrongPlace());
     assertEquals(exactCounts, logic.getExactCharacterCount());
     assertEquals(displayArray, logic.getDisplayArray());
@@ -184,5 +200,31 @@ public class GuessLogicTest {
     expected.add("fizzy");
 
     assertEquals(expected, logic.getPossibilities(wl));
+  }
+
+  @Test
+  public void testBreer() {
+    GuessLogic logic = GuessLogic.generate("breer", "purer");
+
+    assertFalse(logic.isPossible("ulcer"));
+    assertFalse(logic.isPossible("udder"));
+    assertFalse(logic.isPossible("utter"));
+    assertFalse(logic.isPossible("upper"));
+    assertTrue(logic.isPossible("purer"));
+  }
+
+  @Test
+  public void testBreer2() {
+    GuessLogic logic = GuessLogic.generate("breer", "perch");
+
+    assertFalse(logic.isPossible("ulcer"));
+    assertFalse(logic.isPossible("threw"));
+    assertFalse(logic.isPossible("utter"));
+    assertFalse(logic.isPossible("demur"));
+    assertTrue(logic.isPossible("perch"));
+    assertFalse(logic.isPossible("femur"));
+    assertFalse(logic.isPossible("udder"));
+    assertFalse(logic.isPossible("upper"));
+    assertFalse(logic.isPossible("lemur"));
   }
 }

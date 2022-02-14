@@ -8,7 +8,8 @@ import java.util.*;
 public class GuessLogic {
   private String guess;
 
-  private Map<Integer, Character> correct;
+  private Set<Integer> correct;
+  private CountMap<Character> correctCounts;
   private ArrayMap<Character, Integer> wrongPlace;
   private Map<Character, Integer> exactCharacterCount;
   private List<Integer> displayArray;
@@ -17,7 +18,7 @@ public class GuessLogic {
     return guess;
   }
 
-  public Map<Integer, Character> getCorrect() {
+  public Set<Integer> getCorrect() {
     return correct;
   }
 
@@ -33,10 +34,15 @@ public class GuessLogic {
     return displayArray;
   }
 
-  private GuessLogic(String guess, Map<Integer, Character> correct, ArrayMap<Character, Integer> wrongPlace,
+  public CountMap<Character> getCorrectCounts() {
+    return correctCounts;
+  }
+
+  private GuessLogic(String guess, Set<Integer> correct, CountMap<Character> correctCounts, ArrayMap<Character, Integer> wrongPlace,
                      Map<Character, Integer> exactCharacterCount, List<Integer> displayArray) {
     this.guess = guess;
     this.correct = correct;
+    this.correctCounts = correctCounts;
     this.wrongPlace = wrongPlace;
     this.exactCharacterCount = exactCharacterCount;
     this.displayArray = displayArray;
@@ -99,8 +105,12 @@ public class GuessLogic {
 
   public boolean isPossible(String word) {
     // check correct place
-    for (Map.Entry<Integer, Character> pair : correct.entrySet()) {
-      if (word.charAt(pair.getKey()) != pair.getValue()) return false;
+    for (int i = 0; i < 5; i++) {
+      if (correct.contains(i)) {
+        if (word.charAt(i) != guess.charAt(i)) return false;
+      } else {
+        if (word.charAt(i) == guess.charAt(i)) return false;
+      }
     }
 
     // check wrong place
@@ -109,7 +119,8 @@ public class GuessLogic {
         if (word.charAt(i) == pair.getKey()) return false;
       }
 
-      if (countChars(word, pair.getKey()) < pair.getValue().size()) return false;
+      if (countChars(word, pair.getKey()) < pair.getValue().size() + correctCounts.getCount(pair.getKey()))
+        return false;
     }
 
     // check exact count
@@ -122,7 +133,6 @@ public class GuessLogic {
 
   public WordList getPossibilities(Collection<String> inputWords) {
     WordList wl = new WordList();
-
     for (String s : inputWords) {
       if (isPossible(s)) wl.add(s);
     }
@@ -179,6 +189,11 @@ public class GuessLogic {
       }
     }
 
-    return new GuessLogic(guess, correct, wrongPlace, exactLetterCounts, displayArray);
+    CountMap<Character> correctCounts = new CountMap<>();
+    for (char c : correct.values()) {
+      correctCounts.increment(c);
+    }
+
+    return new GuessLogic(guess, correct.keySet(), correctCounts, wrongPlace, exactLetterCounts, displayArray);
   }
 }

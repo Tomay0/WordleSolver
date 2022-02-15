@@ -3,9 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="be5e3547-27c6-4cea-8e89-5271f1dd505a" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/WordleSolver/tomay0/wordle/RecursiveGuessNode$Guess.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/WordleSolver/tomay0/wordle/RecursiveGuessNode$Guess.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/WordleSolver/tomay0/wordle/RecursiveGuessNode.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/WordleSolver/tomay0/wordle/RecursiveGuessNode.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tomay0/wordle/RecursiveGuessNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tomay0/wordle/RecursiveGuessNode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wordle-solver-app/src/fast_tree.json" beforeDir="false" afterPath="$PROJECT_DIR$/wordle-solver-app/src/fast_tree.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/wordle-solver-app/src/tree.json" beforeDir="false" afterPath="$PROJECT_DIR$/wordle-solver-app/src/tree.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />

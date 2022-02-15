@@ -2,7 +2,7 @@ import React from 'react';
 import './App.css';
 import TileRow from './TileRow'
 
-import treeJson from "./tree.json"
+import treeJson from "./tree_hard.json"
 import {GuessTree, descendTree, createTree, evaluateTree} from './tree';
 
 

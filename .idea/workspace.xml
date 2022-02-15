@@ -2,85 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="be5e3547-27c6-4cea-8e89-5271f1dd505a" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/out/production/WordleSolver/tomay0/wordle/InformationMetric.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/WordleSolver/tomay0/wordle/MetricTester.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/tomay0/wordle/InformationMetric.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wordle-solver-app/src/tree.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/checkpoint/beliebiblebilgebingebiomecutiediodegeniehingeimbueliegelithemidgemincemovienicheniecepiecepiquepixietildetithetitleuntiewince" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/checkpoint/biddybigotbittyditchdittodittydizzyfifthfiftyfightfizzygiddyhitchitchyjiffykittymighttightwidowwidthwightwitchwitty" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/checkpoint/biddybigotbittyditchdittodittydizzyfifthfiftyfightfizzygiddyhitchjiffykittymighttightwidowwidthwightwitchwitty" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/checkpoint/biddybillybittyciviccivildillydimlyditchdittydizzyfifthfiftyfillyfilmyfilthfizzyhillyhitchjiffykittylimitlividmilkymimictimidvividwidthwillywitchwitty" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/checkpoint/biddybillybittydillydimlydittydizzyfiftyfillyfilmyfizzygiddyhillyjiffykittymilkywillywitty" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/checkpoint/biddybillybittydillydimlydittydizzyfiftyfillyfilmyfizzyhillyitchyjiffykittymilkywillywitty" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/checkpoint/biddybillyciviccivilcubicdillydizzyfillyfizzyfluidgiddyidylljiffylipidlividlucidpickypiggypubicpupilvigilvividwilly" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/checkpoint/biddybillyciviccivildillydimlydizzyfillyfilmyfizzygiddyhillyidylljiffylividmilkymimicvigilvividwilly" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/checkpoint/biddybillyciviccivildillydimlydizzyfillyfilmyfizzygiddyhillyjiffylividmilkymimicvigilvividwilly" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/checkpoint/biddybillyciviccivildillydimlydizzyfillyfilmyfizzyhillyhippyidyllimplyjiffylipidlividmilkymimicpickyvividwillywimpy" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/checkpoint/biddybillyciviccivildillydimlydizzyfillyfilmyfizzyhillyhippyjiffylipidlividmilkymimicpickyvividwillywimpy" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/checkpoint/biddybillyciviccivildillydimlydizzygiddyhillyhippyidyllimplylipidlividmilkymimicpickypiggyvigilvividwillywimpy" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/checkpoint/biddybillyciviccivildillydizzyfillyfizzygiddyhillyhippyidylljiffylipidlividpickypiggyvigilvividwilly" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/checkpoint/biddybillyciviccivildillydizzyfillyfizzygiddyhillyhippyjiffylipidlividpickypiggyvigilvividwilly" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/checkpoint/biddybillydillydimlydingydizzyfillyfilmyfizzyfungigiddyhillyidylljiffykinkymilkyninnyvinylwillywindy" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/checkpoint/biddybillydillydimlydingydizzyfillyfilmyfizzygiddyhillyjiffykinkylividmilkyminimninnyvigilvinylvividwillywindy" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/checkpoint/biddybillydillydimlydizzyfillyfilmyfizzyfluidgiddyhillyhippyhumididyllimplyjiffylipidlividmilkypiggypupilvigilvividwillywimpy" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/checkpoint/biddybillydillydimlydizzyfillyfilmyfizzyfluidgiddyidyllimplyjiffylipidlividmilkypiggypupilvigilvividwillywimpy" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/checkpoint/biddybillydillydimlydizzyfillyfilmyfizzygiddyhillyhippohippyidylliglooimplyjiffylimbomilkypiggywidowwillywimpy" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/checkpoint/biddybillydillydimlydizzyfillyfilmyfizzygiddyhillyhippyidyllimplyjiffylipidlividmilkypiggyvigilvividwillywimpy" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/checkpoint/biddybillydillydimlydizzyfillyfilmyfizzygiddyhillyhippyidyllimplyjiffymilkypiggywillywimpy" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/checkpoint/biddybillydillydingydizzyfillyfizzyfluidfungigiddyhillyidylljiffykinkylividninnyundidvigilvinylvividwillywindy" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/checkpoint/biddybingocinchdingodingydizzyfinchfizzygiddyhippohippyjiffykinkyninnypickypiggypinchpinkywidowwinchwindy" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/checkpoint/biddybingocinchdingodingydizzyfinchfizzygiddyinboxjiffykinkyninnywidowwinchwindy" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/checkpoint/biddybingocivicdingodingydizzygiddykinkymimicminimninnypickypiggypinkyvividwidowwimpywindy" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/checkpoint/biddybingodingodingydizzyfizzygiddyhippohippyinboxjiffykinkyninnyovoidpiggypinkyvividwidowwindy" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/checkpoint/biddybingodingodingydizzyfizzygiddyhippohippyjiffykinkyninnypiggypinkywidowwimpywindy" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/checkpoint/biddybittycinchciviccynicdigitdingyditchdittydizzyfifthfiftyfightfinchfizzygiddyhitchitchyjiffykinkykittynightninnyninthtightvividwidthwightwinchwindywitchwitty" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/checkpoint/biddybittycivicditchdittydizzyfifthfiftyfizzyhippyhitchjiffykittymimicpickypitchpithytimidvividwidthwimpywitchwitty" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/checkpoint/biddybittydigitdittydizzyfifthfiftyfightfizzygiddyhippyjiffykittymightpiggypithytighttimidvividwidthwightwimpywitty" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/checkpoint/biddybittyditchdittydizzyfifthfiftyfizzyhippyhitchitchyjiffykittypickypitchpithywidthwimpywitchwitty" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/checkpoint/biddybittydittydizzyfifthfiftyfightfizzygiddyhippyjiffykittymightpiggypithytightwidthwightwimpywitty" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/checkpoint/biddycinchciviccubiccynicdingydizzyfinchfizzyfungigiddyhippyjiffykinkyninnypickypiggypinchpinkypubicundidunzipvividwinchwindy" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/checkpoint/biddycinchciviccynicdingydizzyfinchfizzygiddyhippyjiffykinkyninnypickypiggypinchpinkyvividwinchwindy" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/checkpoint/biddycinchciviccynicdingydizzyfinchfizzygiddyjiffykinkymimicminimninnyvividwinchwindy" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/checkpoint/biddycinchcivicdingydizzyfinchfizzygiddyjiffykinkymimicminimninnyvividwinchwindy" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/checkpoint/biddycivicdingydizzyfizzygiddyjiffykinkymimicminimninnypickypiggypinkyvividwimpywindy" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/checkpoint/biddycomiccubicdizzyfizzygiddyhippohippyhumidjiffyovoidpickypiggypubicwidowwimpy" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/checkpoint/bigotbingocinchciviccomicconicfifthfightfinchhitchinboxingotionicmightmimicminimmotifnightninthtighttonictoxictoxinvomitwightwinchwitch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/checkpoint/bigotbittyditchdittodittyfifthfiftyfighthitchingotitchykittymightmintynightninthwidthwightwitchwitty" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/checkpoint/bigotbittydittodittyfifthfiftyfightfilthkittylightmightpilotpithypivotwidthwightwitty" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/checkpoint/billybittyciviccivilfifthfiftyfillyfilmyfilthfizzyhillyhippyhitchjiffykittylimitmilkymimicpickypitchpithywillywimpywitchwitty" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/checkpoint/billybittyfiftyfillyfizzyhillyhippyjiffykinkykittyninnypickypinkypithywillywitty" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/checkpoint/billyciviccivilcubicfillyfilmyfizzyhillyhippyimplyjiffymilkymimicpickypiggypubicpupilvigilwillywimpy" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/checkpoint/billyciviccivilfillyfilmyfizzyhillyhippyimplyjiffymilkymimicpickypiggyvigilwillywimpy" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/checkpoint/billyfillyfilmyfizzyfungiimplyjiffykinkymilkyminimninnypiggypinkypupilunzipvigilvinylwillywimpy" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/checkpoint/billyfillyfilmyfizzyhillyhippyjiffykinkymilkyminimninnypiggypinkyvigilvinylwillywimpy" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/checkpoint/bittydigitditchdittyfifthfiftyfightfilthhitchkittylightpitchpithywidthwightwitchwitty" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/checkpoint/bittyfifthfiftyfightfilthhitchitchykittylightlimitmightpitchpithywightwitchwitty" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/checkpoint/cinchciviccivilfifthfilthfinchhippohitchninthpilotpinchpintopitchpivotwinchwitch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/checkpoint/cinchciviccubicfifthfightfinchfungihitchinputnightninthpinchpitchpubictighttunicunfitunzipwightwinchwitch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/checkpoint/civiccivilcomicfillyfilmyfizzyfoliohillyhippohippyiglooimplyjiffylogicmilkymimicpickypiggyvigilwillywimpy" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/checkpoint/civiccivilcubicditchfifthfilthfluidhitchhumidlimitlividlucidmimictimidvividwidthwitch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/checkpoint/civiccubicdigitditchfifthfighthitchhumidmightmimictighttimidvividwidthwightwitch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/checkpoint/coniccubicfolioinboxinputionicopticpubicpupiltonictopictoxictoxintuliptunicunfitunlituntilunzip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/checkpoint/digitfifthfightfilthfluidhumidlightlimitlividmighttighttimidvigilvividwidthwight" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/checkpoint/ensuescenesconescopesegueshoneshoveslopesmokesmotesolvespokestokestolestonestovestyle" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/WordleSolver/tomay0/wordle/CheckpointHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/WordleSolver/tomay0/wordle/CheckpointHandler.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/WordleSolver/tomay0/wordle/GuessLogic.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/WordleSolver/tomay0/wordle/GuessLogic.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/WordleSolver/tomay0/wordle/GuessNode$Guess.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/WordleSolver/tomay0/wordle/GuessNode$Guess.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/WordleSolver/tomay0/wordle/GuessNode.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/WordleSolver/tomay0/wordle/GuessNode.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/WordleSolver/tomay0/wordle/RecursiveGuessNode$Guess.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/WordleSolver/tomay0/wordle/RecursiveGuessNode$Guess.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/WordleSolver/tomay0/wordle/RecursiveGuessNode.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/WordleSolver/tomay0/wordle/RecursiveGuessNode.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/WordleSolver/tomay0/wordle/WordleSolver.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/WordleSolver/tomay0/wordle/WordleSolver.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/WordleSolver/tomay0/wordle/test/GuessLogicTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/WordleSolver/tomay0/wordle/test/GuessLogicTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/raise.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tomay0/wordle/CheckpointHandler.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tomay0/wordle/GuessLogic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tomay0/wordle/GuessLogic.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tomay0/wordle/GuessNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tomay0/wordle/GuessNode.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/tomay0/wordle/RecursiveGuessNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tomay0/wordle/RecursiveGuessNode.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tomay0/wordle/WordleSolver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tomay0/wordle/WordleSolver.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tomay0/wordle/test/GuessLogicTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tomay0/wordle/test/GuessLogicTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wordle-solver-app/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/wordle-solver-app/src/App.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wordle-solver-app/src/tree.ts" beforeDir="false" afterPath="$PROJECT_DIR$/wordle-solver-app/src/tree.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wordle-solver-app/src/tree.json" beforeDir="false" afterPath="$PROJECT_DIR$/wordle-solver-app/src/tree.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

@@ -8,7 +8,6 @@ import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
 public class RecursiveGuessNode {
-  private static final int TOP_METRIC_THRESHOLD = 10; // the higher - the worst the performance but the closer to the best solution
   private static final double log2 = Math.log(2);
 
   private WordList wordList;
@@ -87,7 +86,7 @@ public class RecursiveGuessNode {
     }
 
     // calculate what words should be recursively checked
-    Map<String, Double[]> estimatedMetrics = stream(wordList).map(this::getEstimatedMetric).collect(Collectors.toMap(Pair::a, Pair::b));
+    Map<String, Double[]> estimatedMetrics = stream(wordList, true).map(this::getEstimatedMetric).collect(Collectors.toMap(Pair::a, Pair::b));
 
     WordList words = new WordList();
 
@@ -107,13 +106,13 @@ public class RecursiveGuessNode {
     }
 
     List<String> sortedMetrics = estimatedMetrics.keySet().stream().sorted(Comparator.comparingDouble(x -> estimatedMetrics.get(x)[0]).reversed()).toList();
-    words.addAll(sortedMetrics.subList(0, TOP_METRIC_THRESHOLD));
+    words.addAll(sortedMetrics.subList(0, (int) Math.max(1, Math.pow(2.5, 5 - depth) - 2)));
 
     if (debug) {
       System.out.println(depthPrefix() + "Testing starter words: " + words);
     }
 
-    bestGuess = getGuess(stream(words).map(this::getGuessExpectedGuesses).min(Comparator.comparing(Pair::b)).get().a());
+    bestGuess = getGuess(stream(words, false).map(this::getGuessExpectedGuesses).min(Comparator.comparing(Pair::b)).get().a());
 
     if (debug) {
       System.out.println(depthPrefix() + "Best: " + bestGuess.guess());
@@ -205,8 +204,8 @@ public class RecursiveGuessNode {
     return sb.toString();
   }
 
-  private <T> Stream<T> stream(Collection<T> c) {
-    return parallel && c.size() > 50 ? c.parallelStream() : c.stream();
+  private <T> Stream<T> stream(Collection<T> c, boolean ignoreFlag) {
+    return (parallel || ignoreFlag) && c.size() > 50 ? c.parallelStream() : c.stream();
   }
 
   private String depthPrefix() {

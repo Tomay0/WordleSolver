@@ -2,7 +2,7 @@ import React from 'react';
 import './App.css';
 import TileRow from './TileRow'
 
-import treeJson from "./tree_hard.json"
+import treeJson from "./tree.json"
 import {GuessTree, descendTree, createTree, evaluateTree} from './tree';
 
 
@@ -19,7 +19,7 @@ export default class App extends React.Component<{}, GameState> {
     console.log(evaluateTree(this.tree));
 
     const topState = {word: this.tree["guess"].toUpperCase(), wordState: [0, 0, 0, 0, 0]};
-    
+
     this.state = {rows: [topState]};
     this.next = this.next.bind(this);
     this.back = this.back.bind(this);
@@ -36,10 +36,10 @@ export default class App extends React.Component<{}, GameState> {
 
   validPath(): boolean {
     const descent = descendTree(this.tree, this.path());
-    
+
     return !descent.isError && descent.value.toUpperCase() !== this.state.rows[this.state.rows.length - 1].word;
   }
-  
+
   back() {
     if(this.state.rows.length < 2) return;
 
@@ -70,12 +70,6 @@ export default class App extends React.Component<{}, GameState> {
       <div className="app">
         <header className="app-header">
           <h1>Wordle Solver</h1>
-          <p>This will always tell you the best word to guess next.</p>
-          <ul>
-            <li>Make your guess in Wordle with our best chosen word</li>
-            <li>Enter the result from the game by clicking the letters</li>
-            <li>Hit next to see the next word you should guess</li>
-          </ul>
         </header>
         <div className="app-body">
           {rows}
